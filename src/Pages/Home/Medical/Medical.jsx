@@ -9,7 +9,7 @@ const Medical = () => {
     <>
       <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className=" text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-lg">
             Providing the best medical services
           </h2>
           <p className="text-center pt-4">
@@ -31,8 +31,8 @@ const Medical = () => {
                 Find a Doctor
               </h1>
               <p className="text-[16px] leading-7 text-textColor font-medium mt-4 text-center">
-                World calss care for everyone. Our health system offers
-                unmatched, experts health care.
+                Discover your perfect match in healthcare with our exceptional
+                roster of skilled and compassionate doctors
               </p>
               <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor ">
                 <Link
@@ -55,18 +55,18 @@ const Medical = () => {
                 Find Location
               </h1>
               <p className="text-[16px] leading-7 text-textColor font-medium mt-4 text-center">
-                World calss care for everyone. Our health system offers
-                unmatched, experts health care.
+                Effortlessly pinpoint our location and explore our inviting
+                facilities, all designed to cater to your needs conveniently
               </p>
               <div
                 className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center 
-    justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor hover:border-none"
+    justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor "
               >
                 <Link
                   to="/doctors"
                   className="flex justify-center items-center pt-2"
                 >
-                  <BsArrowRight className="group-hover:text-white w-6 h-6 " />
+                  <BsArrowRight className=" w-6 h-6 " />
                 </Link>
               </div>
             </div>
@@ -82,18 +82,18 @@ const Medical = () => {
                 Online Appointment
               </h1>
               <p className="text-[16px] leading-7 text-textColor font-medium mt-4 text-center">
-                World calss care for everyone. Our health system offers
-                unmatched, experts health care.
+                Secure your health seamlessly with our convenient and efficient
+                online appointment system.
               </p>
               <div
                 className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center 
-    justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor hover:border-none"
+    justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor "
               >
                 <Link
                   to="/doctors"
                   className="flex justify-center items-center pt-2"
                 >
-                  <BsArrowRight className="group-hover:text-white w-6 h-6 " />
+                  <BsArrowRight className=" w-6 h-6 " />
                 </Link>
               </div>
             </div>

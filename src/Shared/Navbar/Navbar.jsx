@@ -38,7 +38,7 @@ const Navbar = () => {
 
   // return <header className='headerbg'>
   return (
-    <header className="flex fixed  items-center w-full h-[90px] leading-10  bg-[#48cae4]">
+    <header className="flex fixed z-50  items-center w-full h-[90px] leading-10  bg-[#48cae4]">
       <div className="container">
         <div className="flex items-center justify-between">
           {/* logo  */}
