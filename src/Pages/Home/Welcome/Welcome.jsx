@@ -1,12 +1,13 @@
 import React from 'react'
 import { IoCheckmarkCircle } from 'react-icons/io5'
+import './Welcome.css'
 
 const Welcome = () => {
   return (
     <>
       <div className="container mt-40">
         <div className="grid gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 space-y-4 ">
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 ">
             <h1 className="text-3xl font-bold">
               Welcome to Health Care Hospital
             </h1>

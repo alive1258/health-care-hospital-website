@@ -76,14 +76,23 @@ const AskQuestion = () => {
   return (
     <>
       <div className="container pt-40">
-        <h1 className="max-w-48 mx-auto text-3xl font-bold">All Questions</h1>
+        <div className="lg:w-[470px] mx-auto">
+          <h2 className="font-bold text-center lg:text-4xl text-lg">
+            All Questions
+          </h2>
+          <p className="text-center pt-8">
+            Hospitals serve as crucial institutions providing comprehensive
+            medical care and treatment to individuals in need
+          </p>
+        </div>
+
         <div className="grid md:grid-cols-2 grid-cols-1 gap-8 pt-24">
           <div>
             <img className="rounded-lg" src={askDrQPic2} alt="" />
           </div>
           <div>
             <div>
-              <div className="p-4 h-96 overflow-y-scroll">
+              <div className="p-4 h-[440px] overflow-y-scroll">
                 {data.map((item, index) => (
                   <div className="mb-2 bg-gray-200 p-2" key={index}>
                     <input
@@ -97,7 +106,7 @@ const AskQuestion = () => {
                       htmlFor={`toggle-${index}`}
                       className="cursor-pointer text-xl font-medium"
                     >
-                      <div className="flex items-center justify-between">
+                      <div className="flex justify-between">
                         <p>{item.question}</p>
                         {isOpen[index] ? <IoIosArrowUp /> : <IoIosArrowDown />}
                       </div>
