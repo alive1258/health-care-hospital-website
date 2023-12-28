@@ -20,7 +20,7 @@ import {
 const MeetOurDoctors = () => {
   return (
     <>
-      <div className="container my-40">
+      <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
           <h2 className="font-bold text-center lg:text-4xl text-lg">
             Meet Our Doctors

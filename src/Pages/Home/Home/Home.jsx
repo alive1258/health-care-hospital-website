@@ -6,6 +6,7 @@ import Departments from '../Departments/Departments'
 import OurAchievement from '../OurAchievement/OurAchievement'
 import MeetOurDoctors from '../MeetOurDoctors/MeetourDoctors'
 import Appointment from '../Appointment/Appointment'
+import AskQuestion from '../AskQuestion/AskQuestion'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <OurAchievement />
       <MeetOurDoctors />
       <Appointment />
+      <AskQuestion />
     </div>
   )
 }
