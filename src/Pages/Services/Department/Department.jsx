@@ -10,7 +10,15 @@ const Department = () => {
   return (
     <>
       <div className="container pt-40">
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+        <div className="lg:w-[470px] mx-auto">
+          <h2 className="font-bold text-center lg:text-4xl text-lg">
+            Our Services Departments
+          </h2>
+          <p className="text-center pt-4">
+            Our Latest News & Articles.Get latest news in your inbox.
+          </p>
+        </div>
+        <div className="grid pt-20 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
           {/* Emergency unit */}
           <div className="border-2 px-4 py-3">
             <div className="flex justify-center items-center">

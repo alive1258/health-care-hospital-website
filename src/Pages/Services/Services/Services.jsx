@@ -4,6 +4,7 @@ import Department from '../Department/Department'
 import OurAchievement from '../../Home/OurAchievement/OurAchievement'
 import MeetOurDoctors from '../../Home/MeetOurDoctors/MeetourDoctors'
 import OurBlogs from '../OurBlogs/OurBlogs'
+import UrgentServices from '../UrgentServices/UrgentServices'
 
 const Services = () => {
   return (
@@ -13,6 +14,7 @@ const Services = () => {
       <OurAchievement />
       <MeetOurDoctors />
       <OurBlogs />
+      <UrgentServices />
     </>
   )
 }

@@ -20,19 +20,19 @@ const OurBlogs = () => {
 
         <div className="container pt-8">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-            <div className="shadow-xl hover:bg-white px-4 pb-6 rounded-xl duration-500 ease-in-out">
+            <div className="hover:scale-105 hover:translate-y-4  shadow-xl delay-300 hover:bg-white px-4 py-4 rounded-xl   duration-500 ease-in-out">
               <div>
                 <div>
-                  <h1 className="text-lg relative top-16 rounded-r-lg bg-[#0165ff] p-2 font-semibold text-white w-32">
-                    Cardiology
-                  </h1>
                   <img
                     src={cardilogyPic}
                     alt=""
                     className="h-48 rounded-lg w-full"
                   />
                 </div>
-                <div className="pt-6">
+                <h1 className="text-lg text-center relative bottom-44 rounded-r-lg bg-[#0165ff] p-2 font-semibold text-white w-32">
+                  Cardiology
+                </h1>
+                <div className="">
                   <h3 className="text-[#0165ff] text-xl font-semibold">
                     Publish on May 11, 2023 at 6:00 AM
                   </h3>
@@ -44,17 +44,99 @@ const OurBlogs = () => {
                     Natus, blanditiis...........
                   </p>
                   <div className="border-b-2 pt-4"></div>
-                  <div className="pt-4 flex justify-between">
+                  <div className="py-4 flex justify-between">
                     <div className="flex items-center space-x-2 cursor-pointer">
-                      <h1>Read More</h1>
+                      <h1 className="font-semibold">Read More</h1>
                       <FaArrowUpRightFromSquare
                         size={20}
-                        className="text-[#0165ff]"
+                        className="text-[#0165ff] animate-bounce "
                       />
                     </div>
                     <div className="flex items-center space-x-2 cursor-pointer">
                       <MdSms className="text-[#48cae4]" size={20} />
-                      <h1>50 Comments</h1>
+                      <h1 className="font-semibold">50 Comments</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* orthopedicPic */}
+            <div className="hover:scale-105 hover:translate-y-4  shadow-xl delay-300 hover:bg-white px-4 py-4 rounded-xl   duration-500 ease-in-out">
+              <div>
+                <div>
+                  <img
+                    src={orthopedicPic}
+                    alt=""
+                    className="h-48 rounded-lg w-full"
+                  />
+                </div>
+                <h1 className="text-lg text-center relative bottom-44 rounded-r-lg bg-[#0165ff] p-2 font-semibold text-white w-32">
+                  Orthopedic
+                </h1>
+                <div className="">
+                  <h3 className="text-[#0165ff] text-xl font-semibold">
+                    Publish on May 11, 2023 at 6:00 AM
+                  </h3>
+                  <h1 className="pt-4 font-semibold text-lg">
+                    Get Latest News in you inbox
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Natus, blanditiis...........
+                  </p>
+                  <div className="border-b-2 pt-4"></div>
+                  <div className="py-4 flex justify-between">
+                    <div className="flex items-center space-x-2 cursor-pointer">
+                      <h1 className="font-semibold">Read More</h1>
+                      <FaArrowUpRightFromSquare
+                        size={20}
+                        className="text-[#0165ff] animate-bounce "
+                      />
+                    </div>
+                    <div className="flex items-center space-x-2 cursor-pointer">
+                      <MdSms className="text-[#48cae4]" size={20} />
+                      <h1 className="font-semibold">50 Comments</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* nurologyPic */}
+            <div className="hover:scale-105 hover:translate-y-4  shadow-xl delay-300 hover:bg-white px-4 py-4 rounded-xl   duration-500 ease-in-out">
+              <div>
+                <div>
+                  <img
+                    src={nurologyPic}
+                    alt=""
+                    className="h-48 rounded-lg w-full"
+                  />
+                </div>
+                <h1 className="text-lg text-center relative bottom-44 rounded-r-lg bg-[#0165ff] p-2 font-semibold text-white w-32">
+                  Neurology
+                </h1>
+                <div className="">
+                  <h3 className="text-[#0165ff] text-xl font-semibold">
+                    Publish on May 11, 2023 at 6:00 AM
+                  </h3>
+                  <h1 className="pt-4 font-semibold text-lg">
+                    Get Latest News in you inbox
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Natus, blanditiis...........
+                  </p>
+                  <div className="border-b-2 pt-4"></div>
+                  <div className="py-4 flex justify-between">
+                    <div className="flex items-center space-x-2 cursor-pointer">
+                      <h1 className="font-semibold">Read More</h1>
+                      <FaArrowUpRightFromSquare
+                        size={20}
+                        className="text-[#0165ff] animate-bounce "
+                      />
+                    </div>
+                    <div className="flex items-center space-x-2 cursor-pointer">
+                      <MdSms className="text-[#48cae4]" size={20} />
+                      <h1 className="font-semibold">50 Comments</h1>
                     </div>
                   </div>
                 </div>
