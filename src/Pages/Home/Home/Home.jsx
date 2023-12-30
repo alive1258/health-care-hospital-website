@@ -8,12 +8,14 @@ import MeetOurDoctors from '../MeetOurDoctors/MeetourDoctors'
 import Appointment from '../Appointment/Appointment'
 import AskQuestion from '../AskQuestion/AskQuestion'
 import Testimonial from '../Testimonial/Testimonial'
+import HospitalCare from '../HospitalCare/HospitalCare'
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <Medical />
+      <HospitalCare />
       <Welcome />
       <Departments />
       <OurAchievement />

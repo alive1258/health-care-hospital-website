@@ -6,11 +6,18 @@ const Welcome = () => {
   return (
     <>
       <div className="container mt-40">
-        <div className="grid gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 space-y-4 ">
+        <div className="lg:w-[470px] mx-auto">
+          <h2 className="font-bold text-center lg:text-4xl text-lg">
+            Welcome Our Hospital
+          </h2>
+          <p className="text-center pt-4">
+            Get latest news in your inbox . A Doctor Anytime, .get best services
+            for you health
+          </p>
+        </div>
+        <div className="grid pt-20 gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 space-y-4 ">
           <div className="md:col-span-2 ">
-            <h1 className="text-3xl font-bold">
-              Welcome to Health Care Hospital
-            </h1>
+            <h1 className="text-3xl font-bold">Health Care Hospital</h1>
             <p className="pt-4">
               Welcome to Health Care Hospital, where wellness meets expertise in
               healthcare. We prioritize your well-being by providing exceptional
@@ -19,7 +26,7 @@ const Welcome = () => {
               professionalism.
             </p>
 
-            <div className="pt-8 space-y-3">
+            <div className="pt-10 space-y-4">
               <div className="flex items-center space-x-2">
                 <IoCheckmarkCircle size={20} className="text-[#4361ee]" />
                 <p>
@@ -75,7 +82,7 @@ const Welcome = () => {
                   <p>Sunday - Emergency Only</p>
                   <p>Monday - 8:00 AM – 10:00 pm</p>
                   <p>Tuesday - 8:00 AM – 7:00 pm</p>
-                  <p>Wednesday - 8:00 AM – 10:00 pm</p>
+                  <p>Wednesday- 8:00 AM–9:00 pm</p>
                   <p>Thursday - 8:00 AM – 7:00 pm</p>
                   <p>Friday - Fri 08:00am - 10:00pm</p>
                   <p>Ambulance - 24/7 Service</p>

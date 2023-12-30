@@ -34,7 +34,7 @@ const Medical = () => {
                 Discover your perfect match in healthcare with our exceptional
                 roster of skilled and compassionate doctors
               </p>
-              <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor ">
+              <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center hover:border-none hover:-rotate-45 hover:ease-in-out border-[#181A1E] mt-[30px]  group hover:bg-[#0165ff] hover:text-[#ffffff] duration-500">
                 <Link
                   to="/doctors"
                   className="flex justify-center items-center pt-2"
@@ -58,10 +58,7 @@ const Medical = () => {
                 Effortlessly pinpoint our location and explore our inviting
                 facilities, all designed to cater to your needs conveniently
               </p>
-              <div
-                className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center 
-    justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor "
-              >
+              <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center hover:border-none hover:-rotate-45 hover:ease-in-out border-[#181A1E] mt-[30px]  group hover:bg-[#0165ff] hover:text-[#ffffff] duration-500">
                 <Link
                   to="/doctors"
                   className="flex justify-center items-center pt-2"
@@ -85,10 +82,7 @@ const Medical = () => {
                 Secure your health seamlessly with our convenient and efficient
                 online appointment system.
               </p>
-              <div
-                className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center 
-    justify-center border-[#181A1E] mt-[30px]  group hover:bg-primaryColor "
-              >
+              <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center hover:border-none hover:-rotate-45 hover:ease-in-out border-[#181A1E] mt-[30px]  group hover:bg-[#0165ff] hover:text-[#ffffff] duration-500">
                 <Link
                   to="/doctors"
                   className="flex justify-center items-center pt-2"

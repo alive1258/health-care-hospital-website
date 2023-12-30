@@ -1,8 +1,8 @@
 import React from 'react'
-import './AboutBanner.css'
+import './ServiceBanner.css'
 import { Link, NavLink } from 'react-router-dom'
 
-const AboutBanner = () => {
+const ServiceBanner = () => {
   return (
     <>
       <div className="bgBanner">
@@ -12,7 +12,7 @@ const AboutBanner = () => {
           </Link>
           <h2>/</h2>
           <h2>
-            <NavLink>About</NavLink>
+            <NavLink>Services</NavLink>
           </h2>
         </div>
       </div>
@@ -20,4 +20,4 @@ const AboutBanner = () => {
   )
 }
 
-export default AboutBanner
+export default ServiceBanner

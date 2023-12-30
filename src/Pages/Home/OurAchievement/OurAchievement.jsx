@@ -10,7 +10,7 @@ import CountUp from 'react-countup'
 const OurAchievement = () => {
   return (
     <>
-      <div className="my-40">
+      <div className="pt-40">
         <div className="drGroupPic bg-fixed ">
           <div className="px-6 md:pt-36 pt-20 bg-[#6096ba] bg-opacity-50 h-full">
             <div className="container">

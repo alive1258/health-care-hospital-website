@@ -6,6 +6,7 @@ import { FaAmbulance } from 'react-icons/fa'
 import { FaPeopleGroup } from 'react-icons/fa6'
 import { MdPriceCheck } from 'react-icons/md'
 import emergencyPic from '../../../assets/images/emergencyPic.png'
+import Marquee from 'react-fast-marquee'
 
 const ChooseUs = () => {
   return (
@@ -135,8 +136,20 @@ const ChooseUs = () => {
               </div>
             </div>
             {/* marquery  */}
-            <div className="pt-8">
-              <h1>dfaskl</h1>
+            <div className="">
+              <div className="text-2xl bg-[#48cae4] py-4 text-white">
+                <Marquee speed={30}>
+                  The hospital's emergency services provide critical and
+                  immediate medical care to individuals experiencing sudden
+                  illness or injury. Staffed with skilled medical professionals,
+                  these services offer swift assessment, treatment, and
+                  stabilization to patients in urgent need, ensuring timely and
+                  efficient care during emergencies. Accessible 24/7, the
+                  emergency department is equipped to handle a wide range of
+                  medical conditions, prioritizing patient well-being and rapid
+                  intervention
+                </Marquee>
+              </div>
             </div>
           </div>
         </div>
