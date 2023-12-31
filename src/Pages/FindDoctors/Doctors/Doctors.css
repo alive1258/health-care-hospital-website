@@ -1,0 +1,36 @@
+.react-tabs__tab-list {
+  border-bottom: 0;
+}
+.react-tabs__tab {
+  border: none;
+}
+.react-tabs__tab:focus {
+  outline: none;
+}
+.active {
+  width: 200px !important;
+  height: 70px;
+  position: relative;
+  z-index: 1;
+  color: #0f0f0d;
+  font-weight: 500;
+}
+.react-tabs__tab--selected:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 50%;
+}
+.react-tabs__tab--selected {
+  background: none;
+  color: #0165ff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.react-tabs__tab {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}

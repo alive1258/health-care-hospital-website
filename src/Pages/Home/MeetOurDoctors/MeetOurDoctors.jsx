@@ -1,11 +1,11 @@
 import React from 'react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
+import drPic1 from '../../../assets/images/drPic.avif'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { GrInstagram } from 'react-icons/gr'
 import { FaLinkedinIn } from 'react-icons/fa6'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import drPic1 from '../../../assets/images/drPic.avif'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
 
 // Import Swiper styles
 import 'swiper/css'

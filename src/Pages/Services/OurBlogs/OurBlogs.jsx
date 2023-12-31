@@ -8,7 +8,7 @@ import { MdSms } from 'react-icons/md'
 const OurBlogs = () => {
   return (
     <div className="pt-40">
-      <div className="bg-[#e9ecef] py-20">
+      <div className="bg-[#f4f5f6] py-20">
         <div className="lg:w-[470px] mx-auto">
           <h2 className="font-bold text-center lg:text-4xl text-lg">
             Our Blogs
