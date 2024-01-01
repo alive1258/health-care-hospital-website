@@ -7,7 +7,7 @@ import { HiLightBulb } from 'react-icons/hi'
 const Solution = () => {
   return (
     <>
-      <div className="bg-[#e9ecef] mt-72">
+      <div className="bg-[#e9ecef] md:mt-72 mt-52">
         <div className="container">
           {/* Vision & Mission */}
           <div className="md:flex relative bottom-24">
@@ -39,7 +39,7 @@ const Solution = () => {
 
           <div className="pb-20 pt-4">
             <div className="lg:w-[470px] mx-auto">
-              <h2 className="font-bold text-center lg:text-4xl text-lg">
+              <h2 className="font-bold text-center lg:text-4xl text-2xl">
                 SOLUTION
               </h2>
               <p className="text-center pt-4">
@@ -48,17 +48,17 @@ const Solution = () => {
             </div>
 
             <div className="pt-8">
-              <div className="md:flex justify-between">
+              <div className="flex justify-between items-center space-x-5 md:overflow-hidden overflow-x-scroll">
                 <div>
                   <div className="relative top-10 ">
                     <h1 className="bg-blue-500 text-white h-12 font-semibold text-xl w-12 rounded-full flex items-center justify-center">
                       1
                     </h1>
                   </div>
-                  <div className="bg-[#ffffff] h-48 w-48 rounded-full flex justify-center items-center">
+                  <div className="bg-[#ffffff] md:h-48 h-36 w-36 md:w-48 rounded-full flex justify-center items-center">
                     <TbUserSearch size={70} className="text-[#0165ff]" />
                   </div>
-                  <h2 className="text-2xl text-center pt-4 font-semibold">
+                  <h2 className="md:text-2xl text-lg text-center pt-4 font-semibold">
                     Search Doctor
                   </h2>
                 </div>
@@ -68,10 +68,10 @@ const Solution = () => {
                       2
                     </h1>
                   </div>
-                  <div className="bg-[#ffffff] h-48 w-48 rounded-full flex justify-center items-center">
+                  <div className="bg-[#ffffff] md:h-48 h-36 w-36 md:w-48 rounded-full flex justify-center items-center">
                     <FaCalendarCheck size={70} className="text-[#0165ff]" />
                   </div>
-                  <h2 className="text-2xl text-center pt-4 font-semibold">
+                  <h2 className="md:text-2xl text-lg  text-center pt-4 font-semibold">
                     Doctor appointment
                   </h2>
                 </div>
@@ -81,10 +81,10 @@ const Solution = () => {
                       3
                     </h1>
                   </div>
-                  <div className="bg-[#ffffff] h-48 w-48 rounded-full flex justify-center items-center">
+                  <div className="bg-[#ffffff] md:h-48 h-36 w-36 md:w-48 rounded-full flex justify-center items-center">
                     <FaUserDoctor size={70} className="text-[#0165ff]" />
                   </div>
-                  <h2 className="text-2xl text-center pt-4 font-semibold">
+                  <h2 className="md:text-2xl text-lg  text-center pt-4 font-semibold">
                     Check doctor profile
                   </h2>
                 </div>
@@ -94,10 +94,10 @@ const Solution = () => {
                       4
                     </h1>
                   </div>
-                  <div className="bg-[#ffffff] h-48 w-48 rounded-full flex justify-center items-center">
+                  <div className="bg-[#ffffff] md:h-48 h-36 w-36 md:w-48 rounded-full flex justify-center items-center">
                     <HiLightBulb size={70} className="text-[#0165ff]" />
                   </div>
-                  <h2 className="text-2xl text-center pt-4 font-semibold">
+                  <h2 className="md:text-2xl text-lg  text-center pt-4 font-semibold">
                     Get first solution
                   </h2>
                 </div>

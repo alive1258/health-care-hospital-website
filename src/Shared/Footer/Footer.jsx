@@ -18,7 +18,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
     <>
-      <div className="mt-40">
+      <div className="md:mt-40 mt-20">
         <div className="bg-[#48cae4] text-white md:pb-2 pb-20 pt-14">
           <div className="container px-6">
             <div className="py-6">
@@ -67,28 +67,28 @@ const Footer = () => {
                       <div className="flex gap-4">
                         {/* <p className="text-white">Follow us on:</p> */}
 
-                        <div className="bg-gray-400 duration-300 hover:bg-[#28589c] text-white h-8 w-8 rounded-full flex items-center justify-center">
+                        <div className="duration-300 transition hover:scale-110 hover:bg-[#28589c] bg-[#0a48a0] text-white h-8 w-8 rounded-full flex items-center justify-center">
                           <a target="_blank" href="">
                             {' '}
                             <FaFacebookF />
                           </a>
                         </div>
-                        <div className="bg-gray-400 duration-300 hover:bg-[#E1306c] text-white h-8 w-8 rounded-full flex items-center justify-center">
+                        <div className=" duration-300 bg-[#ed447d] hover:bg-[#ca4370] transition hover:scale-110 text-white h-8 w-8 rounded-full flex items-center justify-center">
                           <a target="_blank" href="">
                             {' '}
                             <BsInstagram />
                           </a>
                         </div>
-                        <div className="bg-gray-400 duration-300 hover:bg-[#ff0000] text-white h-8 w-8 rounded-full flex items-center justify-center">
-                          <a target="_blank" href="">
-                            {' '}
-                            <AiFillYoutube />
-                          </a>
-                        </div>
-                        <div className="bg-gray-400 duration-300 hover:bg-blue-700 text-white h-8 w-8 rounded-full flex items-center justify-center">
+                        <div className="duration-300 hover:bg-[#0853bb] bg-blue-700 transition hover:scale-110 text-white h-8 w-8 rounded-full flex items-center justify-center">
                           <a target="_blank" href="">
                             {' '}
                             <BiLogoLinkedin />
+                          </a>
+                        </div>
+                        <div className="duration-300 bg-[#ff0000] transition hover:scale-110 hover:bg-[#ec4040] text-white h-8 w-8 rounded-full flex items-center justify-center">
+                          <a target="_blank" href="">
+                            {' '}
+                            <AiFillYoutube />
                           </a>
                         </div>
                       </div>
@@ -180,7 +180,10 @@ const Footer = () => {
                         {/* -------phone------  */}
                         <div className="flex items-center gap-2">
                           <div className="bg-[#0165ff] cursor-pointer hover:bg-[#065fe5] h-10 w-10 rounded-full flex justify-center items-center">
-                            <AiTwotonePhone className="" size={25} />
+                            <AiTwotonePhone
+                              className="animate-bounce"
+                              size={25}
+                            />
                           </div>
                           <div className="text-[16px] font-medium">
                             <p>+88 0179-0000000</p>

@@ -20,7 +20,7 @@ const Department = () => {
         </div>
         <div className="grid pt-20 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
           {/* Emergency unit */}
-          <div className="border-2 px-4 py-3">
+          <div className="departmentUnitBox">
             <div className="flex justify-center items-center">
               <BsFillBagPlusFill size={40} className="text-[#0165ff] " />
             </div>
@@ -36,7 +36,7 @@ const Department = () => {
           </div>
 
           {/*   Health Care*/}
-          <div className="border-2 px-4 py-3">
+          <div className="departmentUnitBox">
             <div className="flex justify-center items-center">
               <FaHeartbeat size={40} className="text-[#0165ff] " />
             </div>
@@ -52,7 +52,7 @@ const Department = () => {
           </div>
 
           {/*   Qualified Doctors*/}
-          <div className="border-2 px-4 py-3">
+          <div className="departmentUnitBox">
             <div className="flex justify-center items-center">
               <FaUserDoctor size={40} className="text-[#0165ff] " />
             </div>
@@ -68,7 +68,7 @@ const Department = () => {
           </div>
 
           {/*   Ambulance*/}
-          <div className="border-2 px-4 py-3">
+          <div className="departmentUnitBox">
             <div className="flex justify-center items-center">
               <FaAmbulance size={40} className="text-[#0165ff] " />
             </div>
@@ -83,7 +83,7 @@ const Department = () => {
             </p>
           </div>
           {/*   Drag Store*/}
-          <div className="border-2 px-4 py-3">
+          <div className="departmentUnitBox">
             <div className="flex justify-center items-center">
               <GiMedicines size={40} className="text-[#0165ff] " />
             </div>
@@ -98,7 +98,7 @@ const Department = () => {
             </p>
           </div>
           {/*   DNA Testing*/}
-          <div className="border-2 px-4 py-3">
+          <div className="departmentUnitBox">
             <div className="flex justify-center items-center">
               <FaVenusMars size={40} className="text-[#0165ff] " />
             </div>

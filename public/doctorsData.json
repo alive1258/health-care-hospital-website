@@ -21,26 +21,22 @@
     "education": "MD, Pediatrics",
     "experience": "8+ years",
     "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday3",
-        "day4": "Sunday",
-        "day5": "Friday",
-        "day6": "Thursday",
-        "day7": "Saturday"
-      }
+      "Monday",
+      "Tuesday",
+      "Wednesday3",
+      "Sunday",
+      "Friday",
+      "Thursday",
+      "Saturday"
     ],
     "works_time": [
-      {
-        "time1": "8:00 am - 5:00 pm",
-        "time2": "8:00 am - 5:00 pm",
-        "time3": "8:00 am - 8:00 pm",
-        "time4": "8:00 am - 8:00 pm",
-        "time5": "9:00 am - 6:00 pm",
-        "time6": "9:00 am - 6:00 pm",
-        "time7": "9:00 am - 6:00 pm"
-      }
+      "8:00 am - 5:00 pm",
+      "8:00 am - 5:00 pm",
+      "8:00 am - 8:00 pm",
+      "8:00 am - 8:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm"
     ],
     "phone": "987-654-3210",
     "email": "alicesmith@example.com",
@@ -68,23 +64,13 @@
     "specialist": "Cardiologist",
     "education": "MBA in Finance",
     "experience": "12+ years",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday",
-        "day5": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 6:00 pm",
-        "time2": "9:00 am - 6:00 pm",
-        "time3": "9:00 am - 6:00 pm",
-        "time4": "9:00 am - 6:00 pm",
-        "time5": "9:00 am - 4:00 pm"
-      }
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 4:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "johndoe@example.com",
@@ -112,23 +98,13 @@
     "specialist": "Surgeon",
     "education": "BSc in Computer Science",
     "experience": "14+ years",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday",
-        "day5": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 6:00 pm",
-        "time2": "9:00 am - 6:00 pm",
-        "time3": "9:00 am - 6:00 pm",
-        "time4": "9:00 am - 6:00 pm",
-        "time5": "9:00 am - 4:00 pm"
-      }
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "emmajohnson@example.com",
@@ -156,23 +132,13 @@
     "specialist": "Cardiologist",
     "education": "BA in Marketing",
     "experience": "16+ years",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday",
-        "day5": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 6:00 pm",
-        "time2": "8:00 am - 6:00 pm",
-        "time3": "8:00 am - 6:00 pm",
-        "time4": "8:00 am - 6:00 pm",
-        "time5": "8:00 am - 5:00 pm"
-      }
+      "8:00 am - 6:00 pm",
+      "8:00 am - 6:00 pm",
+      "8:00 am - 6:00 pm",
+      "8:00 am - 6:00 pm",
+      "8:00 am - 5:00 pm"
     ],
     "phone": "456-789-0123",
     "email": "danielbrown@example.com",
@@ -200,23 +166,13 @@
     "specialist": "Surgeon",
     "education": "Master's in Architecture",
     "experience": "14+ years",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday",
-        "day5": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 6:00 pm",
-        "time2": "9:00 am - 6:00 pm",
-        "time3": "9:00 am - 6:00 pm",
-        "time4": "9:00 am - 6:00 pm",
-        "time5": "9:00 am - 4:00 pm"
-      }
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 4:00 pm"
     ],
     "phone": "987-654-3210",
     "email": "sophiarodriguez@example.com",
@@ -244,23 +200,13 @@
     "specialist": "Neurologist",
     "education": "Culinary Arts Degree",
     "experience": "17+ years",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday",
-        "day5": "Saturday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
     "works_time": [
-      {
-        "time1": "10:00 am - 7:00 pm",
-        "time2": "10:00 am - 7:00 pm",
-        "time3": "10:00 am - 7:00 pm",
-        "time4": "10:00 am - 7:00 pm",
-        "time5": "12:00 pm - 9:00 pm"
-      }
+      "10:00 am - 7:00 pm",
+      "10:00 am - 7:00 pm",
+      "10:00 am - 7:00 pm",
+      "10:00 am - 7:00 pm",
+      "12:00 pm - 9:00 pm"
     ],
     "phone": "321-654-0987",
     "email": "oliverwilliams@example.com",
@@ -288,23 +234,13 @@
     "specialist": "Cardiologist",
     "education": "MD in Cardiology",
     "experience": "Over 15 years of cardiology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday",
-        "day5": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 5:00 pm",
-        "time2": "8:00 am - 5:00 pm",
-        "time3": "8:00 am - 5:00 pm",
-        "time4": "8:00 am - 5:00 pm",
-        "time5": "8:00 am - 5:00 pm"
-      }
+      "8:00 am - 5:00 pm",
+      "8:00 am - 5:00 pm",
+      "8:00 am - 5:00 pm",
+      "8:00 am - 5:00 pm",
+      "8:00 am - 5:00 pm"
     ],
     "phone": "789-456-1230",
     "email": "samanthalee@example.com",
@@ -332,23 +268,13 @@
     "specialist": "Orthopedist",
     "education": "MD in Oncology",
     "experience": "Over 20 years of oncology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday",
-        "day5": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 6:00 pm",
-        "time2": "9:00 am - 6:00 pm",
-        "time3": "9:00 am - 6:00 pm",
-        "time4": "9:00 am - 6:00 pm",
-        "time5": "9:00 am - 6:00 pm"
-      }
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm",
+      "9:00 am - 6:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "davidchen@example.com",
@@ -376,21 +302,12 @@
     "specialist": "Neurologist",
     "education": "MD in Pediatrics",
     "experience": "Over 20 years of pediatric practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "456-789-0123",
     "email": "emilyjohnson@example.com",
@@ -418,21 +335,12 @@
     "specialist": "Orthopedist",
     "education": "MD in Orthopedics",
     "experience": "Over 20 years of orthopedic practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "michaelthompson@example.com",
@@ -460,21 +368,12 @@
     "specialist": "Neurologist",
     "education": "MD in Neurology",
     "experience": "Over 15 years of neurology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "321-654-0987",
     "email": "sophiaanderson@example.com",
@@ -503,21 +402,12 @@
     "specialist": "Orthopedist",
     "education": "MD in Psychiatry",
     "experience": "Over 15 years of psychiatric practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Monday ", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "10:00 am - 6:00 pm",
-        "time2": "10:00 am - 6:00 pm",
-        "time3": "10:00 am - 6:00 pm",
-        "time4": "10:00 am - 6:00 pm"
-      }
+      "10:00 am - 6:00 pm",
+      "10:00 am - 6:00 pm",
+      "10:00 am - 6:00 pm",
+      "10:00 am - 6:00 pm"
     ],
     "phone": "111-222-3333",
     "email": "williamroberts@example.com",
@@ -545,19 +435,11 @@
     "specialist": "Neurologist",
     "education": "MD in Dermatology",
     "experience": "Over 15 years of dermatology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Thursday",
-        "day3": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "222-333-4444",
     "email": "oliviadavis@example.com",
@@ -585,21 +467,12 @@
     "specialist": "Orthopedist",
     "education": "MD in Gastroenterology",
     "experience": "Over 15 years of gastroenterology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-123-4567",
     "email": "benjamingarcia@example.com",
@@ -627,21 +500,12 @@
     "specialist": "Neurologist",
     "education": "MD in Obstetrics/Gynecology",
     "experience": "Over 15 years of OB/GYN practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "321-456-7890",
     "email": "harpersmith@example.com",
@@ -669,21 +533,12 @@
     "specialist": "Neurologist",
     "education": "MD in Gastroenterology",
     "experience": "Over 15 years of gastroenterology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Monday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-123-4567",
     "email": "benjamingarcia@example.com",
@@ -711,21 +566,12 @@
     "specialist": "Obstetrician/Gynecologist",
     "education": "MD in Obstetrics/Gynecology",
     "experience": "Over 15 years of OB/GYN practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "321-456-7890",
     "email": "harpersmith@example.com",
@@ -753,21 +599,12 @@
     "specialist": "Cardiologist",
     "education": "MD in Cardiology",
     "experience": "Over 15 years of cardiology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "456-789-0123",
     "email": "sophiabaker@example.com",
@@ -795,21 +632,12 @@
     "specialist": "Orthopedist",
     "education": "MD in Pulmonology",
     "experience": "Over 15 years of pulmonology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "alexanderlee@example.com",
@@ -837,21 +665,12 @@
     "specialist": "Endocrinologist",
     "education": "MD in Endocrinology",
     "experience": "Over 15 years of endocrinology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-123-4567",
     "email": "emilyparker@example.com",
@@ -879,21 +698,12 @@
     "specialist": "Dentist",
     "education": "MD in Nephrology",
     "experience": "Over 15 years of nephrology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "lucascarter@example.com",
@@ -921,21 +731,12 @@
     "specialist": "Dentist",
     "education": "MD in Rheumatology",
     "experience": "Over 15 years of rheumatology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "456-789-0123",
     "email": "oliviamoore@example.com",
@@ -963,21 +764,12 @@
     "specialist": "Dermatopathologist",
     "education": "MD in Dermatopathology",
     "experience": "Over 15 years of dermatopathology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "ethanwilson@example.com",
@@ -1005,21 +797,12 @@
     "specialist": "Dentist",
     "education": "MD in Pediatrics",
     "experience": "Over 15 years of pediatric practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "mayapatel@example.com",
@@ -1047,21 +830,12 @@
     "specialist": "Surgeon",
     "education": "MD in Orthopedics",
     "experience": "Over 15 years of orthopedic surgery practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "gabrielthompson@example.com",
@@ -1089,21 +863,12 @@
     "specialist": "Surgeon",
     "education": "MD in Gynecology",
     "experience": "Over 15 years of gynecology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "harperlewis@example.com",
@@ -1131,21 +896,12 @@
     "specialist": "Neurologist",
     "education": "MD in Neurology",
     "experience": "Over 15 years of neurology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "olivergarcia@example.com",
@@ -1173,21 +929,12 @@
     "specialist": "Surgeon",
     "education": "MD in Ophthalmology",
     "experience": "Over 15 years of ophthalmology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "nataliebrooks@example.com",
@@ -1215,21 +962,12 @@
     "specialist": "Cardiologist",
     "education": "MD in Psychiatry",
     "experience": "Over 15 years of psychiatry practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "liamcooper@example.com",
@@ -1257,21 +995,12 @@
     "specialist": "Cardiologist",
     "education": "MD in Cardiology",
     "experience": "Over 15 years of cardiology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "sophiahughes@example.com",
@@ -1299,21 +1028,12 @@
     "specialist": "Surgeon",
     "education": "MD in Pulmonology",
     "experience": "Over 15 years of pulmonology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "aidenfoster@example.com",
@@ -1341,21 +1061,12 @@
     "specialist": "Cardiologist",
     "education": "MD in Endocrinology",
     "experience": "Over 15 years of endocrinology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "avacarter@example.com",
@@ -1383,21 +1094,12 @@
     "specialist": "Dentist",
     "education": "MD in Nephrology",
     "experience": "Over 15 years of nephrology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "noahwright@example.com",
@@ -1425,21 +1127,12 @@
     "specialist": "Surgeon",
     "education": "MD in Gastroenterology",
     "experience": "Over 15 years of gastroenterology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "harperlee@example.com",
@@ -1467,21 +1160,12 @@
     "specialist": "Dentist",
     "education": "MD in Hematology",
     "experience": "Over 15 years of hematology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "rileycampbell@example.com",
@@ -1509,21 +1193,12 @@
     "specialist": "Dentist",
     "education": "MD in Rheumatology",
     "experience": "Over 15 years of rheumatology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "mayapatel@example.com",
@@ -1551,21 +1226,12 @@
     "specialist": "Dentist",
     "education": "MD in Dermatology",
     "experience": "Over 15 years of dermatology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "owenjohnson@example.com",
@@ -1593,21 +1259,12 @@
     "specialist": "Surgeon",
     "education": "MD in Neurology",
     "experience": "Over 15 years of neurology practice",
-    "work_days": [
-      {
-        "day1": "Monday",
-        "day2": "Tuesday",
-        "day3": "Wednesday",
-        "day4": "Thursday"
-      }
-    ],
+    "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
     "works_time": [
-      {
-        "time1": "8:00 am - 4:00 pm",
-        "time2": "8:00 am - 4:00 pm",
-        "time3": "8:00 am - 4:00 pm",
-        "time4": "8:00 am - 4:00 pm"
-      }
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm",
+      "8:00 am - 4:00 pm"
     ],
     "phone": "789-012-3456",
     "email": "gabrielramirez@example.com",
@@ -1635,21 +1292,12 @@
     "specialist": "Cardiologist",
     "education": "MD in Allergy and Immunology",
     "experience": "Over 15 years of allergy and immunology practice",
-    "work_days": [
-      {
-        "day1": "Tuesday",
-        "day2": "Wednesday",
-        "day3": "Thursday",
-        "day4": "Friday"
-      }
-    ],
+    "work_days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
     "works_time": [
-      {
-        "time1": "9:00 am - 5:00 pm",
-        "time2": "9:00 am - 5:00 pm",
-        "time3": "9:00 am - 5:00 pm",
-        "time4": "9:00 am - 5:00 pm"
-      }
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm",
+      "9:00 am - 5:00 pm"
     ],
     "phone": "123-456-7890",
     "email": "harpergreen@example.com",

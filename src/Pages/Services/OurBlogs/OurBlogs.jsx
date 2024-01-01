@@ -131,7 +131,7 @@ const OurBlogs = () => {
                       <h1 className="font-semibold">Read More</h1>
                       <FaArrowUpRightFromSquare
                         size={20}
-                        className="text-[#0165ff] animate-bounce "
+                        className="text-[#0165ff] animate-bounce"
                       />
                     </div>
                     <div className="flex items-center space-x-2 cursor-pointer">

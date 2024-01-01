@@ -95,7 +95,7 @@ const AskQuestion = () => {
     <>
       <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             All Questions
           </h2>
           <p className="text-center pt-8">
@@ -106,32 +106,32 @@ const AskQuestion = () => {
 
         <div className="grid md:grid-cols-2 grid-cols-1 gap-8 pt-16">
           <div className="">
-            <div className="flex">
+            <div className="md:flex">
               {/* doctorpic1 */}
-              <div className="relative z-10 top-80 right-20  bg-white shadow-xl rounded-lg px-2 py-4 w-60 ">
-                <div className="flex space-x-3">
+              <div className="relative z-10 md:top-[340px] top-[470px] md:right-20   bg-white shadow-xl rounded-lg px-2 py-4 md:w-96 w-64">
+                <div className="flex space-x-3 ">
                   <div>
                     <img
                       src={doctorpic1}
-                      className="h-14 w-14 flex rounded-full "
+                      className="h-14 w-14 rounded-full "
                       alt=""
                     />
                     <FaCircleCheck className="text-[#4361ee] relative bottom-4" />
                   </div>
                   <div>
-                    <h1 className="text-lg font-semibold">Lily A. Wilson</h1>
+                    <h1 className="text-lg font-semibold">Wiliam Jon</h1>
                     <p>Senior Cardiologist</p>
                   </div>
                 </div>
               </div>
 
-              <div className="flex items-center justify-center relative top-8">
-                <div className="bg-white ml-8 z-10 px-4 py-3 shadow-xl rounded-lg ">
+              <div className="flex items-center justify-center relative md:top-8 right-11 w-full">
+                <div className="bg-white md:ml-8  z-10 px-4 py-3 shadow-xl rounded-lg ">
                   <div className="flex items-center space-x-4 justify-between ">
                     <div>
                       <FaRegQuestionCircle
                         size={25}
-                        className="text-[#4361ee]"
+                        className="text-[#d90429]"
                       />
                     </div>
                     <div>
@@ -151,23 +151,28 @@ const AskQuestion = () => {
                   alt=""
                 />
               </div>
-              <div className="relative bottom-6">
+              <div className="relative bottom-6 ">
                 <img
                   className="rounded-lg h-96 inline-block w-full"
                   src={treatment2}
                   alt=""
                 />
-                <div className="bg-white p-4 shadow-lg relative bottom-12 right-12 w-24 rounded-lg">
+                <div className="bg-white md:block hidden p-4 shadow-lg relative bottom-12 right-12 w-24 rounded-lg">
                   <FaHandHoldingHeart size={50} className="text-[#4361ee]" />
                 </div>
               </div>
             </div>
           </div>
+          {/* question  */}
           <div>
             <div className="pt-10">
-              <div className="p-4 h-[440px] overflow-y-scroll">
+              <div className="md:p-4  h-[440px] overflow-y-scroll ">
                 {data.map((item, index) => (
-                  <div className="mb-2 rounded-lg bg-[#f8f9fa] p-2" key={index}>
+                  <div
+                    // className={`mb-2 rounded-lg p-2 ${isOpen[index] ? '' : ''}`}
+                    className="space-y-2 mb-3  rounded-lg border-b"
+                    key={index}
+                  >
                     <input
                       type="checkbox"
                       id={`toggle-${index}`}
@@ -177,25 +182,31 @@ const AskQuestion = () => {
                     />
                     <label
                       htmlFor={`toggle-${index}`}
-                      className="cursor-pointer text-lg "
+                      className="cursor-pointer text-lg ${}"
                     >
-                      <div className="flex justify-between">
+                      <div
+                        className={`flex justify-between ${
+                          isOpen[index]
+                            ? 'bg-[#48cae4] p-2 text-[#ffffff] '
+                            : ' hover:bg-[#4361ee] p-2 hover:text-[#ffffff]'
+                        }`}
+                      >
                         <div className="flex items-center space-x-2">
                           <div>
                             {isOpen[index] ? (
-                              <FaRegQuestionCircle className="text-[#0165ff]" />
+                              <FaRegQuestionCircle className="" />
                             ) : (
                               <FaRegQuestionCircle className="text-[#d90429]" />
                             )}
                           </div>
-                          <div>{item.question}</div>
+                          <div className="">{item.question}</div>
                         </div>
                         {isOpen[index] ? <IoIosArrowUp /> : <IoIosArrowDown />}
                       </div>
                     </label>
                     {isOpen[index] && (
-                      <div className="mt-2 collapse-content">
-                        <p>{item.answer}</p>
+                      <div className="mt-2 p-2 ">
+                        <p className="">{item.answer}</p>
                       </div>
                     )}
                   </div>

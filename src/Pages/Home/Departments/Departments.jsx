@@ -19,8 +19,8 @@ const Departments = () => {
   return (
     <div className="container pt-40">
       <div className="lg:w-[470px] mx-auto">
-        <h2 className="font-bold text-center lg:text-4xl text-lg">
-          Health Care Departement
+        <h2 className="font-bold text-center lg:text-4xl text-2xl">
+          Health Care Department
         </h2>
         <p className="text-center pt-4">
           World calss care for everyone. Our health system offers unmatched,

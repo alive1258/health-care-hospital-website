@@ -77,8 +77,8 @@ const Doctors = () => {
       <div className="pt-20">
         <div>
           <Tabs>
-            <div className="flex item-center justify-between">
-              <TabList className="flex space-x-3 font-semibold text-lg">
+            <div className="md:flex item-center space-y-4 justify-between">
+              <TabList className="flex space-x-3 md:overflow-hidden overflow-x-scroll overflow-y-hidden font-semibold text-lg">
                 <Tab>All</Tab>
                 <Tab>Surgeon</Tab>
                 <Tab>Cardiologist</Tab>
@@ -104,7 +104,7 @@ const Doctors = () => {
               </div>
             </div>
 
-            <div className="pt-20">
+            <div className="md:pt-20 pt-10">
               <TabPanel>
                 <DoctorTab persons={filteredDoctors} />
               </TabPanel>

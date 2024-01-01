@@ -5,15 +5,19 @@ import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 
 const Medical = () => {
+  const topFunction = () => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 350
+  }
   return (
     <>
       <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             Providing the best medical services
           </h2>
           <p className="text-center pt-4">
-            World calss care for everyone. Our health system offers unmatched,
+            World class care for everyone. Our health system offers unmatched,
             experts health care.
           </p>
         </div>
@@ -21,8 +25,7 @@ const Medical = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
           {/* Find a Doctor */}
 
-          {/* <div className="py-[30px] px-6 hover:shadow-2xl rounded-xl"> */}
-          <div className="py-[30px] px-6 transition rounded-xl s duration-500 ease-in-out  hover:shadow-2xl ">
+          <div className="py-[30px] cursor-pointer px-6 transition rounded-xl s duration-500 ease-in-out  hover:shadow-2xl ">
             <div className="flex items-center justify-center">
               <img src={icon01} alt="" />
             </div>
@@ -38,6 +41,7 @@ const Medical = () => {
                 <Link
                   to="/doctors"
                   className="flex justify-center items-center pt-2"
+                  onClick={topFunction}
                 >
                   <BsArrowRight className=" w-6 h-6 " />
                 </Link>

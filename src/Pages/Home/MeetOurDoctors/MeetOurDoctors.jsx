@@ -22,7 +22,7 @@ const MeetOurDoctors = () => {
     <>
       <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             Meet Our Doctors
           </h2>
           <p className="text-center pt-8">
@@ -32,8 +32,8 @@ const MeetOurDoctors = () => {
         </div>
 
         {/* doctors  */}
-        <div className="grid grid-cols-4 gap-6 pt-20">
-          <div className="col-span-1">
+        <div className="grid md:grid-cols-4 grid-cols-1 gap-6 pt-20">
+          <div className="md:col-span-1">
             <h1 className="text-3xl font-semibold">About our doctors</h1>
             <p className="pt-8 pr-4">
               Our team of dedicated doctors embodies a wealth of expertise and
@@ -51,7 +51,7 @@ const MeetOurDoctors = () => {
             </div>
           </div>
 
-          <div className="col-span-3">
+          <div className="md:col-span-3">
             <div className="flex space-x-4 mb-4 justify-end">
               <div className="custom-prev-button ">
                 <MdOutlineKeyboardArrowLeft className="text-2xl bg-gray-300 h-8 w-8 rounded-full" />
@@ -61,25 +61,38 @@ const MeetOurDoctors = () => {
               </div>
             </div>
             <Swiper
-              // install Swiper modules
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
-              spaceBetween={40}
-              slidesPerView={3}
+              slidesPerView={1}
+              spaceBetween={10}
               navigation={{
                 nextEl: '.custom-next-button',
                 prevEl: '.custom-prev-button',
               }}
-              //   pagination={{ clickable: true }}
-              //   scrollbar={{ draggable: true }}
-              //   onSwiper={swiper => console.log(swiper)}
-              //   onSlideChange={() => console.log('slide change')}
+              // pagination={{
+              //   clickable: true,
+              // }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
+              modules={[Pagination, Navigation, Scrollbar, A11y]}
+              className="mySwiper"
             >
               <SwiperSlide className="py-4">
                 <div className="max-w-xs rounded overflow-hidden shadow-lg">
                   <div className="py-6 ">
                     <img
-                      className="w-48 bg-gray-400 h-48 rounded-full mx-auto"
-                      src={drPic1}
+                      className="w-48 h-auto rounded-full mx-auto"
+                      src="https://via.placeholder.com/150"
                       alt="Person"
                     />
                   </div>

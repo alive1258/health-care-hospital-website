@@ -7,7 +7,7 @@ const Welcome = () => {
     <>
       <div className="container mt-40">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             Welcome Our Hospital
           </h2>
           <p className="text-center pt-4">
@@ -17,7 +17,9 @@ const Welcome = () => {
         </div>
         <div className="grid pt-20 gap-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 space-y-4 ">
           <div className="md:col-span-2 ">
-            <h1 className="text-3xl font-bold">Health Care Hospital</h1>
+            <h1 className="md:text-3xl text-xl font-bold">
+              Health Care Hospital
+            </h1>
             <p className="pt-4">
               Welcome to Health Care Hospital, where wellness meets expertise in
               healthcare. We prioritize your well-being by providing exceptional

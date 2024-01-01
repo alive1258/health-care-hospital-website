@@ -18,36 +18,54 @@ import DoctorCard from '../../../components/DoctorCard/DoctorCard'
 const RelatedDoctors = ({ relatedDoctors }) => {
   return (
     <>
-      <div className="container pt-10">
+      <div className="pt-10">
         <h1 className="text-2xl font-bold">Related Doctors</h1>
-        <div className="flex space-x-4 mb-4 justify-end">
+        <div className="flex space-x-4 mb-4 justify-end pr-4">
           <div className="custom-prev-button ">
-            <MdOutlineKeyboardArrowLeft className="text-2xl bg-gray-300 h-8 w-8 rounded-full" />
+            <MdOutlineKeyboardArrowLeft className="text-2xl bg-gray-300 hover:bg-[#0165ff] hover:text-white h-8 w-8 rounded-full" />
           </div>
           <div className="custom-next-button">
-            <MdOutlineKeyboardArrowRight className="text-2xl bg-gray-300 h-8 w-8 rounded-full" />
+            <MdOutlineKeyboardArrowRight className="text-2xl bg-gray-300 hover:bg-[#0165ff] hover:text-white h-8 w-8 rounded-full" />
           </div>
         </div>
-        <Swiper
-          // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={40}
-          slidesPerView={3}
-          navigation={{
-            nextEl: '.custom-next-button',
-            prevEl: '.custom-prev-button',
-          }}
-          //   pagination={{ clickable: true }}
-          //   scrollbar={{ draggable: true }}
-          //   onSwiper={swiper => console.log(swiper)}
-          //   onSlideChange={() => console.log('slide change')}
-        >
-          <SwiperSlide className="py-4">
+        <div className="px-4">
+          <Swiper
+            // install Swiper modules
+            slidesPerView={1}
+            spaceBetween={10}
+            navigation={{
+              nextEl: '.custom-next-button',
+              prevEl: '.custom-prev-button',
+            }}
+            // pagination={{
+            //   clickable: true,
+            // }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+            }}
+            modules={[Pagination, Navigation, Scrollbar, A11y]}
+            className="mySwiper"
+          >
             {relatedDoctors?.map(person => (
-              <DoctorCard key={person?._id} person={person} />
+              <SwiperSlide className="">
+                <div className="">
+                  <DoctorCard key={person?._id} person={person} />
+                </div>
+              </SwiperSlide>
             ))}
-          </SwiperSlide>
-        </Swiper>
+          </Swiper>
+        </div>
       </div>
     </>
   )

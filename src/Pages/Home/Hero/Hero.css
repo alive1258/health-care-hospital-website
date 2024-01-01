@@ -1,0 +1,12 @@
+.heroBg {
+  background-image: url('../../../assets/images/bannerHospital.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heroBg2 {
+  background-image: url('../../../assets/images/bgShape.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -13,8 +13,8 @@ const DoctorCard = ({ person }) => {
   }
 
   return (
-    <div className="group">
-      <div className="max-w-xs rounded-lg overflow-hidden shadow-lg relative">
+    <div className="group py-4">
+      <div className="rounded-lg overflow-hidden shadow-lg relative">
         <div className="p-4 ">
           <img
             className="w-full rounded-lg h-64 transition-opacity duration-500 ease-in-out group-hover:opacity-75"

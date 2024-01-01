@@ -14,9 +14,9 @@ import 'swiper/css/scrollbar'
 const Testimonial = () => {
   return (
     <>
-      <div className="container pt-40">
+      <div className="container md:pt-40 pt-20">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             Testimonial
           </h2>
           <p className="text-center pt-8">
@@ -26,8 +26,8 @@ const Testimonial = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-4 gap-6 pt-20">
-          <div className="col-span-1">
+        <div className="md:grid grid-cols-4 gap-6 pt-20">
+          <div className="md:col-span-1">
             <h1 className="text-2xl font-semibold">
               What our customer say Testimonial .....
             </h1>
@@ -35,12 +35,12 @@ const Testimonial = () => {
               <img src={hospitalPic1} alt="" />
             </div>
           </div>
-          <div className="col-span-3">
+          <div className="md:col-span-3">
             <Swiper
-              //   install Swiper modules
+              //   navigation={true}
               modules={[Navigation, Pagination, Autoplay]}
               spaceBetween={40}
-              slidesPerView={3}
+              slidesPerView={1}
               centeredSlides={true}
               autoplay={{
                 delay: 2500,
@@ -49,10 +49,23 @@ const Testimonial = () => {
               pagination={{
                 clickable: true,
               }}
-              //   navigation={true}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
               className="mySwiper"
             >
-              <SwiperSlide className="py-8 ">
+              <SwiperSlide className="py-8">
                 <div className="rounded  overflow-hidden shadow-lg w-80">
                   <div className="flex justify-end w-full pr-2">
                     <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
@@ -81,7 +94,7 @@ const Testimonial = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="py-8 ">
+              <SwiperSlide className="py-8">
                 <div className="rounded  overflow-hidden shadow-lg w-80">
                   <div className="flex justify-end w-full pr-2">
                     <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
@@ -112,7 +125,65 @@ const Testimonial = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="py-8 ">
+              <SwiperSlide className="py-8">
+                <div className="rounded  overflow-hidden shadow-lg w-80">
+                  <div className="flex justify-end w-full pr-2">
+                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
+                  </div>
+                  <div className="pl-6 flex items-center space-x-3">
+                    <img
+                      className="w-20 20 rounded-full "
+                      src="https://via.placeholder.com/150"
+                      alt="Person"
+                    />
+                    <div>
+                      <h1 className="text-xl font-semibold">jon deo</h1>
+                      <p>Pasiant</p>
+                    </div>
+                  </div>
+                  <div className="px-6 py-4">
+                    <div className="mb-2 ">
+                      <p>
+                        The hospital provided exceptional care, ensuring every
+                        aspect of my health was tended to with professionalism
+                        and compassion. The staff's dedication and expertise
+                        made me feel safe and supported throughout my entire
+                        recovery journey.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="py-8">
+                <div className="rounded  overflow-hidden shadow-lg w-80">
+                  <div className="flex justify-end w-full pr-2">
+                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
+                  </div>
+                  <div className="pl-6 flex items-center space-x-3">
+                    <img
+                      className="w-20 20 rounded-full "
+                      src="https://via.placeholder.com/150"
+                      alt="Person"
+                    />
+                    <div>
+                      <h1 className="text-xl font-semibold">jon deo</h1>
+                      <p>Pasiant</p>
+                    </div>
+                  </div>
+                  <div className="px-6 py-4">
+                    <div className="mb-2 ">
+                      <p>
+                        The hospital provided exceptional care, ensuring every
+                        aspect of my health was tended to with professionalism
+                        and compassion. The staff's dedication and expertise
+                        made me feel safe and supported throughout my entire
+                        recovery journey.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="py-8">
                 <div className="rounded  overflow-hidden shadow-lg w-80">
                   <div className="flex justify-end w-full pr-2">
                     <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
@@ -170,7 +241,36 @@ const Testimonial = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="py-8 ">
+              <SwiperSlide className="py-8">
+                <div className="rounded  overflow-hidden shadow-lg w-80">
+                  <div className="flex justify-end w-full pr-2">
+                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
+                  </div>
+                  <div className="pl-6 flex items-center space-x-3">
+                    <img
+                      className="w-20 20 rounded-full "
+                      src="https://via.placeholder.com/150"
+                      alt="Person"
+                    />
+                    <div>
+                      <h1 className="text-xl font-semibold">jon deo</h1>
+                      <p>Pasiant</p>
+                    </div>
+                  </div>
+                  <div className="px-6 py-4">
+                    <div className="mb-2 ">
+                      <p>
+                        The hospital provided exceptional care, ensuring every
+                        aspect of my health was tended to with professionalism
+                        and compassion. The staff's dedication and expertise
+                        made me feel safe and supported throughout my entire
+                        recovery journey.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="py-8">
                 <div className="rounded  overflow-hidden shadow-lg w-80">
                   <div className="flex justify-end w-full pr-2">
                     <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
@@ -201,12 +301,12 @@ const Testimonial = () => {
               </SwiperSlide>
               <SwiperSlide className="py-8 ">
                 <div className="rounded  overflow-hidden shadow-lg w-80">
-                  <div className="flex justify-end w-full pr-2">
-                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
+                  <div className="flex justify-end w-full md:pr-2">
+                    <BiSolidQuoteRight className="text-[#09adfe]" size={40} />
                   </div>
                   <div className="pl-6 flex items-center space-x-3">
                     <img
-                      className="w-20 20 rounded-full "
+                      className="w-20 20 rounded-full"
                       src="https://via.placeholder.com/150"
                       alt="Person"
                     />
@@ -216,94 +316,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <div className="px-6 py-4">
-                    <div className="mb-2 ">
-                      <p>
-                        The hospital provided exceptional care, ensuring every
-                        aspect of my health was tended to with professionalism
-                        and compassion. The staff's dedication and expertise
-                        made me feel safe and supported throughout my entire
-                        recovery journey.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-8 ">
-                <div className="rounded  overflow-hidden shadow-lg w-80">
-                  <div className="flex justify-end w-full pr-2">
-                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
-                  </div>
-                  <div className="pl-6 flex items-center space-x-3">
-                    <img
-                      className="w-20 20 rounded-full "
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                    <div>
-                      <h1 className="text-xl font-semibold">jon deo</h1>
-                      <p>Pasiant</p>
-                    </div>
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className="mb-2 ">
-                      <p>
-                        The hospital provided exceptional care, ensuring every
-                        aspect of my health was tended to with professionalism
-                        and compassion. The staff's dedication and expertise
-                        made me feel safe and supported throughout my entire
-                        recovery journey.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-8 ">
-                <div className="rounded  overflow-hidden shadow-lg w-80">
-                  <div className="flex justify-end w-full pr-2">
-                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
-                  </div>
-                  <div className="pl-6 flex items-center space-x-3">
-                    <img
-                      className="w-20 20 rounded-full "
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                    <div>
-                      <h1 className="text-xl font-semibold">jon deo</h1>
-                      <p>Pasiant</p>
-                    </div>
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className="mb-2 ">
-                      <p>
-                        The hospital provided exceptional care, ensuring every
-                        aspect of my health was tended to with professionalism
-                        and compassion. The staff's dedication and expertise
-                        made me feel safe and supported throughout my entire
-                        recovery journey.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-8 ">
-                <div className="rounded  overflow-hidden shadow-lg w-80">
-                  <div className="flex justify-end w-full pr-2">
-                    <BiSolidQuoteRight className="text-[#09adfe] " size={40} />
-                  </div>
-                  <div className="pl-6 flex items-center space-x-3">
-                    <img
-                      className="w-20 20 rounded-full "
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                    <div>
-                      <h1 className="text-xl font-semibold">jon deo</h1>
-                      <p>Pasiant</p>
-                    </div>
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className="mb-2 ">
+                    <div className="mb-2">
                       <p>
                         The hospital provided exceptional care, ensuring every
                         aspect of my health was tended to with professionalism

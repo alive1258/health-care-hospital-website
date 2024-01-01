@@ -7,9 +7,9 @@ import { GiBrain } from 'react-icons/gi'
 const WeDo = () => {
   return (
     <>
-      <div className="container pt-40">
+      <div className="container md:pt-40 pt-20">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             What We Do
           </h2>
           <p className="text-center pt-8">
@@ -20,7 +20,7 @@ const WeDo = () => {
 
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 pt-20">
           <div>
-            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-28">
+            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-28 ">
               <FaAmbulance size={50} className="-rotate-45  text-[#7b2cbf]" />
             </div>
 

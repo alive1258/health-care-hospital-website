@@ -17,7 +17,7 @@ const Appointment = () => {
   return (
     <div className="container pt-40">
       <div className="lg:w-[470px] mx-auto">
-        <h2 className="font-bold text-center lg:text-4xl text-lg">
+        <h2 className="font-bold text-center lg:text-4xl text-2xl">
           Appointment
         </h2>
         <p className="text-center pt-4">
@@ -38,7 +38,7 @@ const Appointment = () => {
           </div>
 
           {/* Information */}
-          <div className="pt-4 h-96 overflow-y-scroll px-3 space-y-2">
+          <div className="pt-4 h-96 overflow-y-scroll px-3 space-y-3">
             {/* patinet 1  */}
             <div className="shadow-lg p-3 rounded-lg">
               <div className="md:flex space-x-4 ">
@@ -134,7 +134,7 @@ const Appointment = () => {
 
         <div>
           <div className="mb-16">
-            <h1 className="md:text-3xl text-xl font-bold">
+            <h1 className="md:text-3xl text-2xl font-bold md:pt-1 pt-12">
               Make an appointment now!
             </h1>
             <p className="pt-4">
@@ -148,13 +148,13 @@ const Appointment = () => {
                 type="text"
                 placeholder="Name"
                 {...register('name', { required: true, maxLength: 50 })}
-                className="w-full bg-gray-200 rounded-md p-2 mb-4"
+                className="w-full bg-gray-100 rounded-md p-2 mb-4"
               />
               <input
                 type="date"
                 placeholder="date of Birth"
                 {...register('appointmentDate', { required: true })}
-                className="w-full bg-gray-200 rounded-md p-2 mb-4"
+                className="w-full bg-gray-100 rounded-md p-2 mb-4"
               />
             </div>
 
@@ -166,19 +166,19 @@ const Appointment = () => {
                   required: true,
                   pattern: /^\S+@\S+$/i,
                 })}
-                className="w-full bg-gray-200 rounded-md p-2 mb-4"
+                className="w-full bg-gray-100 rounded-md p-2 mb-4"
               />
               <input
                 type="tel"
                 placeholder="Phone"
                 {...register('phone', { required: true, minLength: 6 })}
-                className="w-full bg-gray-200 rounded-md p-2 mb-4"
+                className="w-full bg-gray-100 rounded-md p-2 mb-4"
               />
             </div>
 
             <select
               {...register('service', { required: true })}
-              className="w-full bg-gray-200 rounded-md p-2 mb-4"
+              className="w-full bg-gray-100 rounded-md p-2 mb-4"
             >
               <option value="">Select a service</option>
               <option value="service1">Service 1</option>
@@ -189,13 +189,13 @@ const Appointment = () => {
               type="number"
               placeholder="Age"
               {...register('age', { min: 1, max: 99 })}
-              className="w-full bg-gray-200 rounded-md p-2 mb-4"
+              className="w-full bg-gray-100 rounded-md p-2 mb-4"
             />
             {/* <input type="number" {...register('age', { min: 18, max: 99 })} /> */}
             <textarea
               placeholder="Message"
               {...register('message', { required: true })}
-              className="w-full h-40 bg-gray-200 rounded-md p-2 mb-4"
+              className="w-full h-40 bg-gray-100 rounded-md p-2 mb-4"
             ></textarea>
             <input
               type="submit"

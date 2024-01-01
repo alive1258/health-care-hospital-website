@@ -13,7 +13,7 @@ const ChooseUs = () => {
     <>
       <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             WHY CHOOSE US
           </h2>
           <p className="text-center pt-8">
@@ -22,13 +22,13 @@ const ChooseUs = () => {
           </p>
         </div>
 
-        <div className="pt-20 grid md:grid-cols-2 grid-cols-1 gap-6 ">
+        <div className="pt-20 grid md:grid-cols-2 grid-cols-1 md:gap-6 gap-2 space-y-4">
           <div className="space-y-6 h-[570px] overflow-y-scroll p-4">
             {/* Modern Technology */}
             <div className="flex space-x-6">
               <div>
                 <div className="bg-[#48cae4] -rotate-45 h-16 w-16 flex justify-center items-center rounded-es-3xl rounded-ss-3xl rounded-se-3xl">
-                  <h1 className="rotate-45">1</h1>
+                  <h1 className="rotate-45 text-white font-bold text-lg">1</h1>
                 </div>
               </div>
 
@@ -47,7 +47,7 @@ const ChooseUs = () => {
             <div className="flex space-x-6">
               <div>
                 <div className="bg-[#48cae4] -rotate-45 h-16 w-16 flex justify-center items-center rounded-es-3xl rounded-ss-3xl rounded-se-3xl">
-                  <h1 className="rotate-45">1</h1>
+                  <h1 className="rotate-45 text-white font-bold text-lg">2</h1>
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ const ChooseUs = () => {
             <div className="flex space-x-6">
               <div>
                 <div className="bg-[#48cae4] -rotate-45 h-16 w-16 flex justify-center items-center rounded-es-3xl rounded-ss-3xl rounded-se-3xl">
-                  <h1 className="rotate-45">1</h1>
+                  <h1 className="rotate-45 text-white font-bold text-lg">3</h1>
                 </div>
               </div>
 
@@ -85,7 +85,7 @@ const ChooseUs = () => {
             <div className="flex space-x-6">
               <div>
                 <div className="bg-[#48cae4] -rotate-45 h-16 w-16 flex justify-center items-center rounded-es-3xl rounded-ss-3xl rounded-se-3xl">
-                  <h1 className="rotate-45">1</h1>
+                  <h1 className="rotate-45 text-white font-bold text-lg">4</h1>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ const ChooseUs = () => {
             <div className="flex space-x-6">
               <div>
                 <div className="bg-[#48cae4] -rotate-45 h-16 w-16 flex justify-center items-center rounded-es-3xl rounded-ss-3xl rounded-se-3xl">
-                  <h1 className="rotate-45">1</h1>
+                  <h1 className="rotate-45 text-white font-bold text-lg">5</h1>
                 </div>
               </div>
 
@@ -120,7 +120,7 @@ const ChooseUs = () => {
               </div>
             </div>
           </div>
-          <div className="pl-6 relative">
+          <div className="md:pl-6 relative">
             <div className="">
               <img className="w-full  md:h-[450px]" src={emergencyPic} alt="" />
             </div>
@@ -132,7 +132,7 @@ const ChooseUs = () => {
                   </h1>
                   <p className="text-lg font-medium">1-885-665-2022</p>
                 </div>
-                <FaAmbulance size={50} className="text-[#ef233c]" />
+                <FaAmbulance size={50} className="text-[#0165ff]" />
               </div>
             </div>
             {/* marquery  */}

@@ -10,9 +10,9 @@ import { GiMedicines } from 'react-icons/gi'
 const AboutUs = () => {
   return (
     <>
-      <div className="container pt-40">
+      <div className="container md:pt-40 pt-20">
         <div className="lg:w-[470px] mx-auto">
-          <h2 className="font-bold text-center lg:text-4xl text-lg">
+          <h2 className="font-bold text-center lg:text-4xl text-2xl">
             About Us
           </h2>
           <p className="text-center pt-8">
