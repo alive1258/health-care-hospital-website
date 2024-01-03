@@ -7,7 +7,7 @@ import RelatedDoctors from './RelatedDoctors'
 
 const DoctorsDetails = () => {
   const doctorDetails = useLoaderData()
-  console.log(doctorDetails)
+
   let { detailsId } = useParams()
 
   // singleDoctorData
@@ -51,6 +51,10 @@ const DoctorsDetails = () => {
       doctor?._id !== singleDoctorData._id
   )
 
+  const topFunction = () => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
   return (
     <>
       <div>
@@ -73,7 +77,7 @@ const DoctorsDetails = () => {
                 <div className="bg-[#48cae4] md:w-[80%] rounded-lg">
                   <img className="p-4 w-full md:h-96" src={image} alt="" />
                 </div>
-                <div cla>
+                <div>
                   <h1 className="text-2xl font-semibold">{name}</h1>
                   <p className="text-lg font-semibold">{specialist}</p>
                   <div className="pt-6 space-y-3 text-lg">
@@ -182,9 +186,14 @@ const DoctorsDetails = () => {
                       </div>
 
                       <div className="items-center pt-6 ">
-                        <button className="bg-[#0165ff] w-full text-white text-xl font-semibold px-4 py-2 rounded-md hover:bg-[#0165ff] transition delay-300 ease-in-out">
-                          Book an Appointment
-                        </button>
+                        <Link to={`/doctor-appointment/${_id}`}>
+                          <button
+                            onClick={topFunction}
+                            className="bg-[#0165ff] w-full text-white text-xl font-semibold px-4 py-2 rounded-md hover:bg-[#0165ff] transition delay-300 ease-in-out"
+                          >
+                            Book an Appointment
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

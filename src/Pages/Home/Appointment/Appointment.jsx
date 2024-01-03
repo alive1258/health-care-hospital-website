@@ -4,8 +4,10 @@ import patient2 from '../../../assets/images/patin2.jpg'
 import patient3 from '../../../assets/images/patin3.jpg'
 import patient4 from '../../../assets/images/patin4.png'
 import patient5 from '../../../assets/images/patin5.jpg'
+import { useEffect, useState } from 'react'
 
 const Appointment = () => {
+  const [doctors, setDoctors] = useState([])
   const {
     register,
     handleSubmit,
@@ -13,6 +15,12 @@ const Appointment = () => {
   } = useForm()
 
   const onSubmit = data => console.log(data)
+
+  useEffect(() => {
+    fetch('/doctorsData.json')
+      .then(res => res.json())
+      .then(data => setDoctors(data))
+  }, [])
 
   return (
     <div className="container pt-40">
@@ -38,7 +46,7 @@ const Appointment = () => {
           </div>
 
           {/* Information */}
-          <div className="pt-4 h-96 overflow-y-scroll px-3 space-y-3">
+          <div className="pt-4 h-[450px] overflow-y-scroll px-3 space-y-3">
             {/* patinet 1  */}
             <div className="shadow-lg p-3 rounded-lg">
               <div className="md:flex space-x-4 ">
@@ -177,12 +185,22 @@ const Appointment = () => {
             </div>
 
             <select
-              {...register('service', { required: true })}
+              {...register('name', { required: true })}
               className="w-full bg-gray-100 rounded-md p-2 mb-4"
             >
-              <option value="">Select a service</option>
-              <option value="service1">Service 1</option>
-              <option value="service2">Service 2</option>
+              <option value="">Select a Doctor</option>
+              {doctors?.map(doctor => (
+                <option value="">{doctor?.name}</option>
+              ))}
+            </select>
+            <select
+              {...register('department', { required: true })}
+              className="w-full bg-gray-100 rounded-md p-2 mb-4"
+            >
+              <option value="">Select a Department</option>
+              {doctors?.map(doctor => (
+                <option value="">{doctor?.specialist}</option>
+              ))}
               {/* Add other service options */}
             </select>
             <input
@@ -193,9 +211,9 @@ const Appointment = () => {
             />
             {/* <input type="number" {...register('age', { min: 18, max: 99 })} /> */}
             <textarea
-              placeholder="Message"
+              placeholder="Appointment Note..."
               {...register('message', { required: true })}
-              className="w-full h-40 bg-gray-100 rounded-md p-2 mb-4"
+              className="w-full h-36 bg-gray-100 rounded-md p-2 mb-4"
             ></textarea>
             <input
               type="submit"

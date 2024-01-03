@@ -9,6 +9,7 @@ import DoctorsDetails from './../Pages/FindDoctors/DoctorDetails/DoctorsDetails'
 import Contact from '../Pages/Contact/Contact/Contact'
 import OnlineAppointment from '../Pages/Home/OnlineAppointment/OnlineAppointment'
 import DetailsBlog from '../Pages/Services/OurBlogs/DetailsBlog'
+import AppointmentDoctor from '../Pages/FindDoctors/AppointmentDoctor/AppointmentDoctor'
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +44,11 @@ export const router = createBrowserRouter([
       {
         path: '/doctor-details/:detailsId',
         element: <DoctorsDetails />,
+        loader: ({ params }) => fetch('/doctorsData.json'),
+      },
+      {
+        path: '/doctor-appointment/:detailsId',
+        element: <AppointmentDoctor />,
         loader: ({ params }) => fetch('/doctorsData.json'),
       },
       {

@@ -20,7 +20,7 @@ const WeDo = () => {
 
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-6 pt-20">
           <div>
-            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-28 ">
+            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-24 ">
               <FaAmbulance size={50} className="-rotate-45  text-[#7b2cbf]" />
             </div>
 
@@ -36,7 +36,7 @@ const WeDo = () => {
           </div>
 
           <div>
-            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-28">
+            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-24">
               <FaHeartbeat size={50} className="-rotate-45  text-[#ff5400]" />
             </div>
 
@@ -50,7 +50,7 @@ const WeDo = () => {
             </div>
           </div>
           <div>
-            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-28">
+            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-24">
               <MdBloodtype size={50} className="-rotate-45  text-[#d90429]" />
             </div>
 
@@ -67,7 +67,7 @@ const WeDo = () => {
             </div>
           </div>
           <div>
-            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-28">
+            <div className="border-2 bg-[#ffffff] w-20 h-20 p-4 rotate-45 relative top-10 left-24">
               <GiBrain size={50} className="-rotate-45 text-[#38b000]" />
             </div>
 

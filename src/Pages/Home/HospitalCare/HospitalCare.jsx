@@ -75,7 +75,7 @@ const HospitalCare = () => {
                             <IoStar size={20} className="text-[#fb8500]" />
                             <IoStar
                               size={30}
-                              className="relative bottom-3 text-[#fb8500]"
+                              className="relative animate-bounce bottom-3 text-[#fb8500]"
                             />
                             <IoStar size={20} className="text-[#fb8500]" />
                           </div>

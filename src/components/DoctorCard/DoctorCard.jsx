@@ -14,23 +14,25 @@ const DoctorCard = ({ person }) => {
 
   return (
     <div className="group py-4">
-      <div className="rounded-lg overflow-hidden shadow-lg relative">
-        <div className="p-4 ">
-          <img
-            className="w-full rounded-lg h-64 transition-opacity duration-500 ease-in-out group-hover:opacity-75"
-            src={image}
-            alt="Person"
-          />
-          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-            <Link to={`/doctor-details/${_id}`} onClick={topFunction}>
-              <button className="text-[#0165ff] flex items-center space-x-2 bg-gray-100 text-lg font-semibold px-4 py-2 rounded-md">
-                <span>View Details</span>
-                <FiArrowUpRight size={20} />
-              </button>
-            </Link>
+      <div className="rounded-lg hover:scale-105 duration-500 ease-in-out  overflow-hidden shadow-lg relative">
+        <div className="p-3 ">
+          <div className="relative group">
+            <img
+              className="w-full rounded-lg h-48 transition-opacity duration-500 ease-in-out group-hover:opacity-75"
+              src={image}
+              alt="Person"
+            />
+            <div className="absolute top-24 inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+              <Link to={`/doctor-details/${_id}`} onClick={topFunction}>
+                <button className="text-[#0165ff] flex items-center space-x-2 bg-gray-100 text-lg font-semibold px-4 py-2 rounded-md">
+                  <span>View Details</span>
+                  <FiArrowUpRight size={20} />
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="px-6 py-4">
+        <div className="py-3">
           <div className=" ">
             <h1 className="text-xl font-semibold flex justify-center">
               {name}
@@ -54,10 +56,17 @@ const DoctorCard = ({ person }) => {
               <FaLinkedinIn />
             </a>
           </div>
-          <div className="w-28 mx-auto pb-3">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
-              Appointment
-            </button>
+          <div className="w-28 mx-auto pb-2 ">
+            <Link
+              to={`/doctor-appointment/${_id}`}
+              onClick={topFunction}
+              className="cursor-pointer"
+              style={{ opacity: 1 }} // Ensure opacity is set to 1
+            >
+              <button className="bg-blue-500 font-semibold text-white px-4 py-2 rounded-md">
+                Appointment
+              </button>
+            </Link>
           </div>
         </div>
       </div>

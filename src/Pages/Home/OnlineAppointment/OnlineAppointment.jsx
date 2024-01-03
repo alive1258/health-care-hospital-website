@@ -36,7 +36,7 @@ const OnlineAppointment = () => {
           </p>
         </div>
 
-        {/* apponment  */}
+        {/* appontment  */}
         <div className=" pt-4">
           <div className="md:mx-24  mb-48 mt-[90px] md:px-20 px-6 shadow-md border-2 rounded-xl">
             <div className="py-16">
