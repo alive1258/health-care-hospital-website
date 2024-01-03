@@ -61,8 +61,8 @@ const WeDo = () => {
               </h1>
               <p>
                 Blood tests involve analyzing a small sample of blood to assess
-                various of health, aiding in diagnosing conditions or monitoring
-                overall well-being
+                various of health, aiding in conditions or monitoring overall
+                well-being
               </p>
             </div>
           </div>

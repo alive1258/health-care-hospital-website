@@ -59,8 +59,8 @@ const Footer = () => {
                         <GoLocation className="" size={25} />
                       </div>
                       <div className="text-[16px] font-medium">
-                        <p>Uttra,sector-11,road-6</p>
-                        <p>Dhaka ,Bangladesh</p>
+                        <p>SS Road, Hk Tower</p>
+                        <p>Sirajganj ,Bangladesh</p>
                       </div>
                     </div>
                     <div className="pt-4">
@@ -207,8 +207,8 @@ const Footer = () => {
                             <GoLocation className="" size={25} />
                           </div>
                           <div className="text-[16px] font-medium">
-                            <p>Uttra,sector-11,road-6</p>
-                            <p>Dhaka ,Bangladesh</p>
+                            <p>SS Road, Hk Tower</p>
+                            <p>Sirajganj ,Bangladesh</p>
                           </div>
                         </div>
                       </div>

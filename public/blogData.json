@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "name": "Cardiology",
+    "publishDate": "12 May 2023",
+    "time": "6",
+    "Comments": "46",
+    "title": "Get Latest News in you inbox",
+    "title2": "How to live a healthy life without disease",
+    "massage": "Cardiologists, specialized doctors in this field, examine ",
+    "details": "Cardiology is the medical discipline focused on the heart and circulatory system, encompassing the diagnosis, treatment, and prevention of cardiovascular diseases. Cardiologists, specialized doctors in this field, examine various heart conditions, such as coronary artery disease, arrhythmias, and heart failure. They utilize diagnostic tools like echocardiograms, EKGs, and cardiac catheterizations to assess heart health and functionality. Treatment options in cardiology range from lifestyle changes and medication to advanced procedures like angioplasty and bypass surgery, aiming to manage conditions and promote heart health.",
+    "img": "https://www.northcountryhospital.org/wp-content/uploads/2019/04/C-Cardiology-newport-vermont-e1554726152791.png"
+  },
+  {
+    "_id": 2,
+    "name": "Neurology",
+    "publishDate": "12 May 2023",
+    "time": "7.30",
+    "Comments": "38",
+    "title": "Get Latest News in you inbox",
+    "title2": "How to live a healthy life without disease",
+    "massage": "Neurologists are specialized doctors who assess and manage a broad range",
+    "details": "Neurology is a branch of medicine focused on diagnosing and treating disorders related to the nervous system. It encompasses conditions affecting the brain, spinal cord, nerves, and muscles. Neurologists are specialized doctors who assess and manage a broad range of neurological conditions, including epilepsy, strokes, multiple sclerosis, and Parkinson's disease. Diagnostic tools like MRI, CT scans, and nerve conduction studies aid neurologists in identifying and understanding these complex conditions. Treatment in neurology often involves medication to alleviate symptoms and improve the patient's quality of life.",
+    "img": "https://www.loyolamedicine.org/assets/images/request-an-appointment-widget-images/600-neurology.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "Orthopedic",
+    "publishDate": "12 May 2023",
+    "time": "8.30",
+    "Comments": "30",
+    "title": "Get Latest News in you inbox",
+    "title2": "How to live a healthy life without  disease",
+    "massage": " Orthopedic doctors, known as orthopedic surgeons or orthopedists,",
+    "details": "Orthopedics is a medical specialty dedicated to the diagnosis, treatment, and prevention of conditions related to the musculoskeletal system, including bones, joints, ligaments, tendons, and muscles. Orthopedic doctors, known as orthopedic surgeons or orthopedists, address a wide range of issues, from fractures and sprains to arthritis and sports injuries. Treatment approaches vary, encompassing non-invasive methods such as physical therapy, medication, and orthotic devices, as well as surgical interventions when necessary to repair or reconstruct damaged tissues or joints. The field aims to restore mobility, alleviate pain, and improve the functionality of the musculoskeletal system for patients of all ages.",
+    "img": "https://www.coastalorthoteam.com/hs-fs/hubfs/sports_medicine_focal_points.jpg?width=1024&name=sports_medicine_focal_points.jpg"
+  }
+]

@@ -27,7 +27,8 @@ const Departments = () => {
           experts health care.
         </p>
       </div>
-      <div className="pt-10 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-4">
+
+      <div className="pt-10 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4">
         {showAllData
           ? departmentData.map(department => (
               <Department
@@ -36,7 +37,7 @@ const Departments = () => {
               ></Department>
             ))
           : departmentData
-              .slice(0, 10)
+              .slice(0, 8)
               .map(department => (
                 <Department
                   key={department.id}

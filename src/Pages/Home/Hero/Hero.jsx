@@ -28,12 +28,15 @@ const Hero = () => {
             <div className="pt-2">
               <div className="">
                 <div className="relative top-10">
-                  <div className="p-4 w-28 flex justify-center items-center bg-[#ffffff] shadow-lg rounded-lg">
+                  <div className="p-4 w-28  flex justify-center items-center bg-[#ffffff] shadow-lg rounded-lg">
                     <RiMedicineBottleLine
                       size={40}
                       className="text-[#4361ee]"
                     />
-                    <GiMedicines size={40} className="text-[#e07c41]" />
+                    <GiMedicines
+                      size={40}
+                      className="text-[#e07c41]  animate-bounce"
+                    />
                   </div>
                 </div>
                 <img src={shapeBgpic} className="h-96" alt="" />
@@ -64,14 +67,14 @@ const Hero = () => {
                       </div>
                     </div>
 
-                    <div className="bg-white relative md:left-24 md:bottom-60 bottom-80 shadow-lg md:px-3 px-2 md:py-4 pb-2 md:w-52 rounded-lg">
+                    <div className="bg-white relative md:left-12 md:bottom-60 bottom-80 shadow-lg md:px-3 px-2 md:py-4 pb-2 md:w-44 rounded-lg">
                       <div className="flex justify-center">
                         <div className="w-20">
                           <div className="flex space-x-1">
                             <IoStar size={20} className="text-[#fb8500]" />
                             <IoStar
                               size={30}
-                              className="relative bottom-3 text-[#fb8500]"
+                              className="relative animate-bounce bottom-3 text-[#fb8500]"
                             />
                             <IoStar size={20} className="text-[#fb8500]" />
                           </div>

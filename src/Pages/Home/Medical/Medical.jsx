@@ -64,8 +64,9 @@ const Medical = () => {
               </p>
               <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center hover:border-none hover:-rotate-45 hover:ease-in-out border-[#181A1E] mt-[30px]  group hover:bg-[#0165ff] hover:text-[#ffffff] duration-500">
                 <Link
-                  to="/doctors"
+                  to="/contact"
                   className="flex justify-center items-center pt-2"
+                  onClick={topFunction}
                 >
                   <BsArrowRight className=" w-6 h-6 " />
                 </Link>
@@ -88,8 +89,9 @@ const Medical = () => {
               </p>
               <div className="w-[44px] h-[44px] rounded-full border border-solid  mx-auto items-center justify-center hover:border-none hover:-rotate-45 hover:ease-in-out border-[#181A1E] mt-[30px]  group hover:bg-[#0165ff] hover:text-[#ffffff] duration-500">
                 <Link
-                  to="/doctors"
+                  to="/online-appointment"
                   className="flex justify-center items-center pt-2"
+                  onClick={topFunction}
                 >
                   <BsArrowRight className=" w-6 h-6 " />
                 </Link>

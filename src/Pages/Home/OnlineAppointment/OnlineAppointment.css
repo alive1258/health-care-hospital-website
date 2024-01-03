@@ -1,0 +1,10 @@
+.bgBanner {
+  background-image: url('../../../assets/images/bannerHospital.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.active {
+  color: #0165ff;
+}

@@ -1,8 +1,13 @@
 import React from 'react'
 import { IoCheckmarkCircle } from 'react-icons/io5'
 import './Welcome.css'
+import { Link } from 'react-router-dom'
 
 const Welcome = () => {
+  const topFunction = () => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 450
+  }
   return (
     <>
       <div className="container mt-40">
@@ -54,9 +59,14 @@ const Welcome = () => {
               </div>
             </div>
             <div className="pt-6">
-              <button class="bg-[#4361ee] text-white px-4 py-2 rounded-md">
-                Know More
-              </button>
+              <Link to="/about">
+                <button
+                  onClick={topFunction}
+                  className="bg-[#4361ee] text-white px-4 py-2 rounded-md"
+                >
+                  Know More
+                </button>
+              </Link>
             </div>
           </div>
           {/* welcome hospital video  */}

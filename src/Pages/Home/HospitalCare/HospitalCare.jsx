@@ -10,8 +10,13 @@ import { FaCircleCheck } from 'react-icons/fa6'
 import { FaUserDoctor } from 'react-icons/fa6'
 import { IoStar } from 'react-icons/io5'
 import { AiFillLike } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const HospitalCare = () => {
+  const topFunction = () => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 350
+  }
   return (
     <>
       <div className="container pt-40">
@@ -188,9 +193,14 @@ const HospitalCare = () => {
                 </div>
               </div>
               <div className="pt-6">
-                <button class="bg-[#4361ee] text-white px-4 py-2 rounded-md">
-                  Know More
-                </button>
+                <Link to="/doctors">
+                  <button
+                    onClick={topFunction}
+                    className="bg-[#4361ee] text-white px-4 py-2 rounded-md"
+                  >
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

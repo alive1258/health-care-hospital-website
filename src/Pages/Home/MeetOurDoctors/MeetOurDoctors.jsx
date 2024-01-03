@@ -1,9 +1,4 @@
-import React from 'react'
-import drPic1 from '../../../assets/images/drPic.avif'
-import { FaFacebookF } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
-import { GrInstagram } from 'react-icons/gr'
-import { FaLinkedinIn } from 'react-icons/fa6'
+import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
 
@@ -16,14 +11,34 @@ import {
   MdOutlineKeyboardArrowRight,
   MdOutlineKeyboardArrowLeft,
 } from 'react-icons/md'
+import DoctorCard from '../../../components/DoctorCard/DoctorCard'
+import { Link } from 'react-router-dom'
 
 const MeetOurDoctors = () => {
+  const [doctors, setDoctors] = useState([])
+
+  useEffect(() => {
+    fetch('/doctorsData.json')
+      .then(res => res.json())
+      .then(data => {
+        const slicedData = data.slice(0, 8)
+        setDoctors(slicedData)
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error)
+      })
+  }, [])
+
+  const topFunction = () => {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 350
+  }
   return (
     <>
       <div className="container pt-40">
         <div className="lg:w-[470px] mx-auto">
           <h2 className="font-bold text-center lg:text-4xl text-2xl">
-            Meet Our Doctors
+            Meet Our Popular Doctors
           </h2>
           <p className="text-center pt-8">
             Meet our esteemed team of dedicated doctors, each committed to
@@ -34,7 +49,7 @@ const MeetOurDoctors = () => {
         {/* doctors  */}
         <div className="grid md:grid-cols-4 grid-cols-1 gap-6 pt-20">
           <div className="md:col-span-1">
-            <h1 className="text-3xl font-semibold">About our doctors</h1>
+            <h1 className="text-3xl font-semibold">About All Doctors</h1>
             <p className="pt-8 pr-4">
               Our team of dedicated doctors embodies a wealth of expertise and
               compassion, ensuring personalized care for every individual. Each
@@ -45,19 +60,24 @@ const MeetOurDoctors = () => {
               our community.
             </p>
             <div className=" pt-14">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                See All Doctors
-              </button>
+              <Link to="/doctors">
+                <button
+                  onClick={topFunction}
+                  className="bg-[#0165ff] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  See All Doctors
+                </button>
+              </Link>
             </div>
           </div>
 
           <div className="md:col-span-3">
             <div className="flex space-x-4 mb-4 justify-end">
               <div className="custom-prev-button ">
-                <MdOutlineKeyboardArrowLeft className="text-2xl bg-gray-300 h-8 w-8 rounded-full" />
+                <MdOutlineKeyboardArrowLeft className="text-2xl bg-gray-300 hover:bg-[#0165ff] duration-500 ease-in-out hover:text-[#ffffff] h-8 w-8 rounded-full" />
               </div>
               <div className="custom-next-button">
-                <MdOutlineKeyboardArrowRight className="text-2xl bg-gray-300 h-8 w-8 rounded-full" />
+                <MdOutlineKeyboardArrowRight className="text-2xl bg-gray-300 hover:bg-[#0165ff] duration-500 ease-in-out hover:text-[#ffffff] h-8 w-8 rounded-full" />
               </div>
             </div>
             <Swiper
@@ -87,372 +107,13 @@ const MeetOurDoctors = () => {
               modules={[Pagination, Navigation, Scrollbar, A11y]}
               className="mySwiper"
             >
-              <SwiperSlide className="py-4">
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6 ">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
+              {doctors?.map(person => (
+                <SwiperSlide className="">
+                  <div className="">
+                    <DoctorCard key={person?._id} person={person} />
                   </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                {' '}
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                {' '}
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                {' '}
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                {' '}
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                {' '}
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="py-4">
-                {' '}
-                <div className="max-w-xs rounded overflow-hidden shadow-lg">
-                  <div className="py-6">
-                    <img
-                      className="w-48 h-auto rounded-full mx-auto"
-                      src="https://via.placeholder.com/150"
-                      alt="Person"
-                    />
-                  </div>
-                  <div className="px-6 py-4">
-                    <div className=" mb-2 space-y-1">
-                      <h1 className="text-xl font-semibold flex justify-center ">
-                        Dr.Nayeem Kader
-                      </h1>
-                      <h4 className="flex justify-center text-lg font-semibold">
-                        Cardiology
-                      </h4>
-                    </div>
-                    <div className="flex justify-center py-6 space-x-4">
-                      {/* Replace the links with actual social media profile links */}
-                      <a href="#" className="text-gray-500 hover:text-blue-500">
-                        <FaFacebookF />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-400">
-                        <FaXTwitter />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-red-500">
-                        <GrInstagram />
-                      </a>
-                      <a href="#" className="text-gray-500 hover:text-blue-700">
-                        <FaLinkedinIn />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>

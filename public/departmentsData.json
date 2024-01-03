@@ -2,76 +2,245 @@
   {
     "id": 1,
     "name": "Plastic Surgery",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of the Plastic Surgery",
+    "title2": "What do Plastic Surgery?",
+    "treatment1": "Plastic surgery encompasses various treatments aimed at reconstructing, repairing, or enhancing different parts of the body. These treatments are diverse and can be broadly categorized into reconstructive and cosmetic procedures",
+    "treatment2": [
+      "Microsurgery",
+      "Craniofacial Surgery",
+      "Hand Surgery",
+      "Breast Reconstruction",
+      "Burn Reconstruction",
+      "Facial Procedures",
+      "Body Contouring",
+      "Breast Surgery",
+      "Non-Surgical Procedures",
+      "Hair Restoration"
+    ],
+    "title2_ans": "Plastic surgery encompasses a wide range of procedures aimed at reconstructing, restoring, or altering the appearance or function of different parts of the body. These procedures can be broadly categorized into two main types:",
+    "details": "Plastic surgery is a medical specialty focused on reconstructing or altering the appearance of the body. It encompasses both reconstructive procedures, aiming to restore function and appearance, and cosmetic surgeries, which aim to enhance aesthetic features. These surgeries can involve various parts of the body, such as the face, breasts, or extremities, addressing concerns ranging from birth defects to enhancing physical attributes. Plastic surgeons undergo extensive training to perform these procedures, considering not only the physical aspects but also the psychological well-being of the patient. While some surgeries are elective, others are necessary for improving quality of life or correcting injuries. It's essential for individuals considering plastic surgery to thoroughly research, understand risks, and have realistic expectations about the outcomes.",
+    "img": "https://img.freepik.com/free-photo/doctor-checking-patient-before-rhinoplasty-side-view_23-2149352177.jpg?size=626&ext=jpg"
   },
   {
     "id": 2,
     "name": "Rhinonology",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Rhinonology",
+    "title2": "What do Rhinonology?",
+    "treatment1": "Rhinonology is a specialized field within otolaryngology (ENT) that focuses on the study and treatment of nasal and sinus disorders.",
+    "treatment2": [
+      "Nasal Congestion Treatment",
+      "Sinusitis Management",
+      "Allergy Diagnosis and Treatment",
+      "Nasal Polyps Removal",
+      "Septoplasty"
+    ],
+    "title2_ans": "Rhinonology primarily deals with nasal and sinus-related health issues.",
+    "details": "It encompasses the diagnosis, treatment, and management of various conditions affecting the nasal passages and sinuses. Common treatments include addressing nasal congestion, managing sinusitis, diagnosing and treating allergies, removing nasal polyps, and performing septoplasty to correct deviated septums. Rhinonologists, specialized ENT doctors, utilize various diagnostic tools and surgical techniques to offer relief and improve the quality of life for patients experiencing nasal or sinus-related concerns.",
+    "img": "https://img.freepik.com/free-photo/doctor-otorhinolaryngologist-checking-nose-with-otoscope-patient-hospital-nasal-congestion-sinusitis-allergy-concept_657921-194.jpg?size=626&ext=jpg"
   },
   {
     "id": 3,
     "name": "Nurology",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Neurology",
+    "title2": "What do Neurology?",
+    "treatment1": "Neurology is a medical specialty that focuses on the diagnosis and treatment of disorders affecting the nervous system.",
+    "treatment2": [
+      "Stroke Management",
+      "Epilepsy Treatment",
+      "Neuromuscular Disorder Management",
+      "Headache and Migraine Management",
+      "Neurodegenerative Disease Treatment"
+    ],
+    "title2_ans": "Neurology deals with disorders impacting the nervous system, including the brain, spinal cord, and nerves.",
+    "details": "Neurologists specialize in diagnosing and managing a wide range of conditions affecting the nervous system, such as strokes, epilepsy, neuromuscular disorders, headaches, and neurodegenerative diseases like Alzheimer's and Parkinson's. They employ various diagnostic tools, including imaging tests and neurological examinations, to assess and treat patients. Neurological treatment often involves medication management, lifestyle modifications, and, in some cases, surgical interventions. Neurologists work towards improving the quality of life for patients and managing conditions that affect their cognitive and physical abilities.",
+    "img": "https://img.freepik.com/free-photo/back-view-man-patient-wearing-performant-brainwave-scanning-headset-sitting-neurological-research-laboratory-while-medical-researcher-adjusting-it-examining-nervous-system-typing-tablet_482257-16484.jpg?size=626&ext=jpg"
   },
   {
     "id": 4,
-    "name": "Gastroenterlogy",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "name": "Gastrology",
+    "title": "Role of Gastrology",
+    "title2": "What do Gastrology?",
+    "treatment1": "Gastrology, also known as Gastroenterology, is a medical specialty focused on diagnosing and treating disorders of the digestive system.",
+    "treatment2": [
+      "Gastrointestinal Endoscopy",
+      "Treatment for Gastroesophageal Reflux Disease (GERD)",
+      "Management of Irritable Bowel Syndrome (IBS)",
+      "Liver Disease Treatment",
+      "Treatment for Inflammatory Bowel Disease (IBD)"
+    ],
+    "title2_ans": "Gastrology deals with issues related to the digestive system, including the esophagus, stomach, intestines, liver, and pancreas.",
+    "details": "Gastroenterologists specialize in diagnosing and managing various conditions affecting the digestive tract. They address disorders such as gastroesophageal reflux disease (GERD), irritable bowel syndrome (IBS), inflammatory bowel disease (IBD), liver diseases, and perform procedures like gastrointestinal endoscopy to visualize and treat digestive issues. Gastroenterologists work closely with patients to manage symptoms, provide dietary advice, and offer medical or procedural interventions to improve gastrointestinal health and overall well-being.",
+    "img": "https://t4.ftcdn.net/jpg/01/40/80/71/240_F_140807129_NRcB9GtlqBpBnAM5Ul1OslhXVOz2SnNg.jpg"
   },
   {
     "id": 5,
     "name": "Pulmonology",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Pulmonology",
+    "title2": "What do Pulmonology?",
+    "treatment1": "Pulmonology is a medical specialty focused on the diagnosis and treatment of diseases related to the respiratory system.",
+    "treatment2": [
+      "Respiratory Tract Infection Management",
+      "Asthma Treatment",
+      "Chronic Obstructive Pulmonary Disease (COPD) Management",
+      "Lung Cancer Screening and Treatment",
+      "Sleep Apnea Management"
+    ],
+    "title2_ans": "Pulmonology deals with conditions affecting the respiratory tract, including the lungs, bronchi, trachea, and diaphragm.",
+    "details": "Pulmonologists specialize in diagnosing and managing various respiratory disorders such as asthma, chronic obstructive pulmonary disease (COPD), respiratory infections, lung cancer, and sleep-related breathing disorders like sleep apnea. They utilize diagnostic tools such as spirometry and imaging studies to assess lung function and structure. Treatment may involve medication management, pulmonary rehabilitation, oxygen therapy, or surgical interventions, aiming to improve lung function and overall respiratory health.",
+    "img": "https://www.marvelhospitals.in/wp-content/uploads/2022/04/pulmonology.jpg"
   },
   {
     "id": 6,
     "name": "Urology",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Urology",
+    "title2": "What do Urology?",
+    "treatment1": "Urology is a medical specialty focused on the diagnosis and treatment of conditions related to the urinary tract and male reproductive system.",
+    "treatment2": [
+      "Urinary Tract Infection (UTI) Treatment",
+      "Kidney Stone Management",
+      "Prostate Disorders Treatment",
+      "Male Infertility Treatment",
+      "Bladder Cancer Treatment"
+    ],
+    "title2_ans": "Urology deals with issues affecting the urinary system, including the kidneys, bladder, ureters, and male reproductive organs.",
+    "details": "Urologists specialize in diagnosing and managing various urinary tract conditions and male reproductive disorders. They address concerns such as urinary tract infections (UTIs), kidney stones, prostate issues, male infertility, and bladder cancer. Urologists use diagnostic tests like ultrasounds, cystoscopy, and urodynamic studies to assess and treat conditions affecting the urinary system and male reproductive organs. Treatment approaches may include medications, surgical interventions, or lifestyle modifications, aiming to improve urinary health and reproductive function.",
+    "img": "https://img.freepik.com/free-vector/human-internal-organ-with-kidneys-bladder_1308-108864.jpg?size=626&ext=jpg"
   },
   {
     "id": 7,
     "name": "Dental care",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Dental Care",
+    "title2": "What do Dental Care?",
+    "treatment1": "Dental care focuses on the maintenance of oral health and the prevention, diagnosis, and treatment of dental conditions.",
+    "treatment2": [
+      "Dental Cleanings and Check-ups",
+      "Tooth Fillings and Restorations",
+      "Root Canal Treatment",
+      "Tooth Extractions",
+      "Orthodontic Treatment"
+    ],
+    "title2_ans": "Dental care involves the practice of maintaining oral hygiene and addressing dental problems for overall oral health.",
+    "details": "Dental care professionals, including dentists and dental hygienists, specialize in preventing, diagnosing, and treating oral conditions. They perform routine dental check-ups, cleanings, and various treatments such as fillings, root canals, extractions, and orthodontic procedures to correct teeth misalignment. Dental care focuses on promoting good oral hygiene practices and managing dental issues to ensure optimal oral health and prevent oral diseases and complications.",
+    "img": "https://img.freepik.com/free-photo/woman-patient-dentist_1303-9365.jpg?size=626&ext=jpg"
   },
   {
     "id": 8,
     "name": "Otology",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Otology",
+    "title2": "What do Otology?",
+    "treatment1": "Otology is a branch of medicine specializing in the diagnosis and treatment of diseases related to the ear and its connected structures.",
+    "treatment2": [
+      "Hearing Loss Evaluation and Management",
+      "Treatment for Ear Infections",
+      "Tinnitus Management",
+      "Ear Surgery",
+      "Balance Disorders Treatment"
+    ],
+    "title2_ans": "Otology deals with disorders affecting the ear and its connected structures, including hearing loss, ear infections, and balance issues.",
+    "details": "Otologists, specialized ear doctors, focus on diagnosing and managing various ear-related conditions and disorders. They assess and treat issues such as hearing loss, ear infections, tinnitus (ringing in the ears), balance disorders, and perform ear surgeries when necessary. Diagnostic procedures like audiometry and imaging studies aid in evaluating and addressing ear-related concerns. Otologists aim to improve hearing function, alleviate symptoms, and enhance the overall ear health and balance of their patients.",
+    "img": "https://assets.alot.com/assets/common/career/u8946_602x312.jpg"
   },
   {
     "id": 9,
     "name": "Orthopedies",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Orthopedics",
+    "title2": "What do Orthopedics?",
+    "treatment1": "Orthopedics is a medical specialty focused on the diagnosis, treatment, and prevention of conditions related to the musculoskeletal system.",
+    "treatment2": [
+      "Fracture Management",
+      "Joint Replacement Surgeries",
+      "Treatment for Sports Injuries",
+      "Spine Disorders Management",
+      "Orthopedic Rehabilitation"
+    ],
+    "title2_ans": "Orthopedics deals with issues concerning the bones, joints, muscles, ligaments, and tendons of the musculoskeletal system.",
+    "details": "Orthopedic specialists, including surgeons and physicians, specialize in diagnosing and treating various musculoskeletal conditions. They manage fractures, perform joint replacement surgeries (e.g., knee or hip replacements), treat sports injuries, address spine disorders, and provide orthopedic rehabilitation. Diagnostic tools like X-rays and MRI scans help assess and plan treatments for musculoskeletal issues. Orthopedic interventions aim to restore mobility, alleviate pain, and improve the overall function and quality of life for patients with musculoskeletal problems.",
+    "img": "https://img.freepik.com/free-photo/patient-nurse-with-face-masks-looking-spine-bones_482257-27000.jpg?size=626&ext=jpg"
   },
   {
     "id": 10,
     "name": "Cataract surgery",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Cataract Surgery",
+    "title2": "What do Cataract Surgery?",
+    "treatment1": "Cataract surgery is a procedure aimed at removing the cloudy lens (cataract) from the eye to restore clear vision.",
+    "treatment2": [
+      "Phacoemulsification",
+      "Intraocular Lens Implantation",
+      "Posterior Capsulotomy",
+      "Refractive Cataract Surgery",
+      "Laser-Assisted Cataract Surgery"
+    ],
+    "title2_ans": "Cataract surgery involves the removal of the cloudy lens and implantation of an artificial lens to improve vision clarity.",
+    "details": "Cataract surgery is performed by ophthalmologists to remove a cloudy lens (cataract) from the eye that causes blurry vision. The procedure involves techniques like phacoemulsification, where the cataract is broken up and removed, followed by the insertion of an artificial lens (intraocular lens) to restore clear vision. Advanced procedures like refractive cataract surgery or laser-assisted techniques may also be utilized. Cataract surgery is typically outpatient and helps individuals regain clearer vision and improve their quality of life.",
+    "img": "https://img.freepik.com/free-photo/eye-doctor-with-female-patient-during-examination-modern-clinic-ophthalmologist-is-using-special-medical-equipment-eye-health_657921-161.jpg?size=626&ext=jpg"
   },
   {
     "id": 11,
     "name": "Eye care",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Eye Care",
+    "title2": "What do Eye Care?",
+    "treatment1": "Eye care involves comprehensive practices aimed at maintaining optimal eye health, preventing diseases, and addressing vision concerns.",
+    "treatment2": [
+      "Comprehensive Eye Exams",
+      "Prescription of Corrective Lenses",
+      "Treatment for Eye Infections",
+      "Management of Eye Conditions (Glaucoma, Macular Degeneration)",
+      "Refractive Surgeries (LASIK, PRK)"
+    ],
+    "title2_ans": "Eye care focuses on preserving eye health, addressing vision issues, and preventing eye-related diseases.",
+    "details": "Eye care professionals, including optometrists and ophthalmologists, offer comprehensive services to maintain and improve vision and eye health. They conduct routine eye exams, prescribe corrective lenses, treat eye infections, and manage various eye conditions like glaucoma and macular degeneration. Additionally, refractive surgeries like LASIK and PRK are performed to correct vision. Eye care aims to preserve visual acuity, detect eye problems early, and provide suitable treatments to ensure optimal eye health and vision.",
+    "img": "https://img.freepik.com/free-photo/little-girl-checking-up-her-sight-ophthalmology-center_1303-27493.jpg?size=626&ext=jpg"
   },
   {
     "id": 12,
     "name": "Anzicty Treatment",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Anxiety Treatment",
+    "title2": "What do Anxiety Treatment?",
+    "treatment1": "Anxiety treatment involves therapeutic approaches aimed at managing and alleviating symptoms of anxiety disorders.",
+    "treatment2": [
+      "Cognitive Behavioral Therapy (CBT)",
+      "Medication Management",
+      "Relaxation Techniques",
+      "Mindfulness and Meditation",
+      "Exposure Therapy"
+    ],
+    "title2_ans": "Anxiety treatment focuses on reducing anxiety symptoms and improving overall mental well-being.",
+    "details": "Anxiety treatment methods vary and may include therapy, medication, or a combination of both. Cognitive Behavioral Therapy (CBT) is a common therapeutic approach that helps individuals identify and modify negative thought patterns and behaviors associated with anxiety. Medications such as antidepressants or anti-anxiety drugs may be prescribed based on the severity of symptoms. Additionally, relaxation techniques, mindfulness, meditation, and exposure therapy are utilized to manage anxiety symptoms and improve coping mechanisms. Anxiety treatment aims to reduce anxiety levels, enhance coping skills, and improve the individual's overall quality of life.",
+    "img": "https://img.freepik.com/free-photo/doctor-talking-senior-man-indoors_23-2148962350.jpg?size=626&ext=jpg"
   },
   {
     "id": 13,
     "name": "Radiology Center",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Radiology Center",
+    "title2": "What do a Radiology Center?",
+    "treatment1": "A Radiology Center provides diagnostic imaging services using various techniques to aid in the diagnosis and treatment planning of medical conditions.",
+    "treatment2": [
+      "X-rays",
+      "Computed Tomography (CT) Scans",
+      "Magnetic Resonance Imaging (MRI)",
+      "Ultrasound Imaging",
+      "Nuclear Medicine Imaging"
+    ],
+    "title2_ans": "A Radiology Center offers imaging services that assist in diagnosing and monitoring medical conditions using advanced imaging technologies.",
+    "details": "Radiology Centers house advanced equipment and technologies for diagnostic imaging procedures. They offer services such as X-rays, CT scans, MRI scans, ultrasound imaging, and nuclear medicine imaging. These imaging modalities help in visualizing internal body structures and aid in diagnosing various medical conditions, assessing injuries, and planning treatments. Radiologists interpret these images and provide detailed reports to healthcare professionals, contributing significantly to accurate diagnoses and treatment planning.",
+    "img": "https://img.freepik.com/free-photo/doctor-getting-patient-ready-ct-scan_23-2149367401.jpg?size=626&ext=jpg"
   },
+
   {
     "id": 14,
-    "name": "Psychiatry Wing",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
-  },
-  {
-    "id": 15,
     "name": "Dermatology Center",
-    "img": "https://thumbs.dreamstime.com/z/rhinology-icon-beautiful-meticulously-designed-93571666.jpg"
+    "title": "Role of Dermatology Center",
+    "title2": "What do a Dermatology Center?",
+    "treatment1": "A Dermatology Center specializes in diagnosing and treating conditions related to the skin, hair, and nails.",
+    "treatment2": [
+      "Acne Treatment",
+      "Skin Cancer Screening and Treatment",
+      "Psoriasis Management",
+      "Dermatologic Surgery",
+      "Cosmetic Dermatology Procedures"
+    ],
+    "title2_ans": "A Dermatology Center provides comprehensive care for skin, hair, and nail conditions, offering treatments and procedures to improve skin health and appearance.",
+    "details": "Dermatology Centers focus on the diagnosis and treatment of various skin-related conditions and concerns. They offer services like acne treatment, skin cancer screenings, management of conditions like psoriasis, dermatologic surgeries for skin issues, and various cosmetic dermatology procedures. Dermatologists utilize their expertise to address medical and cosmetic skin concerns, offering personalized treatments to enhance skin health and appearance. These centers play a vital role in maintaining skin health and treating dermatological conditions.",
+    "img": "https://img.freepik.com/free-photo/client-beautician-s-appointment-consultation-face-shaping-preparation-upcoming-procedures-visual-examination-problem-areas_343596-4176.jpg?size=626&ext=jpg"
   }
 ]

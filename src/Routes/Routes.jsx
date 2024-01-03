@@ -6,6 +6,9 @@ import About from '../Pages/About/About/About'
 import Services from '../Pages/Services/Services/Services'
 import FindDoctors from '../Pages/FindDoctors/FindDoctors/FindDoctors'
 import DoctorsDetails from './../Pages/FindDoctors/DoctorDetails/DoctorsDetails'
+import Contact from '../Pages/Contact/Contact/Contact'
+import OnlineAppointment from '../Pages/Home/OnlineAppointment/OnlineAppointment'
+import DetailsBlog from '../Pages/Services/OurBlogs/DetailsBlog'
 
 export const router = createBrowserRouter([
   {
@@ -30,9 +33,22 @@ export const router = createBrowserRouter([
         element: <FindDoctors />,
       },
       {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/online-appointment',
+        element: <OnlineAppointment />,
+      },
+      {
         path: '/doctor-details/:detailsId',
         element: <DoctorsDetails />,
         loader: ({ params }) => fetch('/doctorsData.json'),
+      },
+      {
+        path: '/blog-details/:detailsId',
+        element: <DetailsBlog />,
+        loader: ({ params }) => fetch('/blogData.json'),
       },
     ],
   },
