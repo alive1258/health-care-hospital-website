@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react'
+import { A11y, Navigation, Pagination, Scrollbar } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
 
 // Import Swiper styles
+import {
+  MdOutlineKeyboardArrowLeft,
+  MdOutlineKeyboardArrowRight,
+} from 'react-icons/md'
+import { Link } from 'react-router-dom'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
-import {
-  MdOutlineKeyboardArrowRight,
-  MdOutlineKeyboardArrowLeft,
-} from 'react-icons/md'
 import DoctorCard from '../../../components/DoctorCard/DoctorCard'
-import { Link } from 'react-router-dom'
 
 const MeetOurDoctors = () => {
   const [doctors, setDoctors] = useState([])

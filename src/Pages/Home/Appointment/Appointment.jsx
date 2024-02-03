@@ -5,6 +5,7 @@ import patient3 from '../../../assets/images/patin3.jpg'
 import patient4 from '../../../assets/images/patin4.png'
 import patient5 from '../../../assets/images/patin5.jpg'
 import { useEffect, useState } from 'react'
+import { motion, useSpring, useViewportScroll } from 'framer-motion'
 
 const Appointment = () => {
   const [doctors, setDoctors] = useState([])
@@ -21,6 +22,13 @@ const Appointment = () => {
       .then(res => res.json())
       .then(data => setDoctors(data))
   }, [])
+
+  const { scrollYProgress } = useViewportScroll()
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  })
 
   return (
     <div className="container pt-40">
@@ -46,7 +54,10 @@ const Appointment = () => {
           </div>
 
           {/* Information */}
-          <div className="pt-4 h-[450px] overflow-y-scroll px-3 space-y-3">
+          <motion.div
+            style={{ scaleX }}
+            className="progress-bar pt-4 h-[450px] overflow-y-scroll px-3 space-y-3"
+          >
             {/* patinet 1  */}
             <div className="shadow-lg p-3 rounded-lg">
               <div className="md:flex space-x-4 ">
@@ -137,7 +148,7 @@ const Appointment = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div>

@@ -1,18 +1,16 @@
 import React from 'react'
+import { A11y, Navigation, Pagination, Scrollbar } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
 
 // Import Swiper styles
+import {
+  MdOutlineKeyboardArrowLeft,
+  MdOutlineKeyboardArrowRight,
+} from 'react-icons/md'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
-import {
-  MdOutlineKeyboardArrowRight,
-  MdOutlineKeyboardArrowLeft,
-} from 'react-icons/md'
-import { FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/fa6'
-import { GrInstagram } from 'react-icons/gr'
 import DoctorCard from '../../../components/DoctorCard/DoctorCard'
 
 const RelatedDoctors = ({ relatedDoctors }) => {
@@ -58,8 +56,8 @@ const RelatedDoctors = ({ relatedDoctors }) => {
             className="mySwiper"
           >
             {relatedDoctors?.map(person => (
-              <SwiperSlide className="">
-                <div className="">
+              <SwiperSlide key={person?._id}>
+                <div>
                   <DoctorCard key={person?._id} person={person} />
                 </div>
               </SwiperSlide>
