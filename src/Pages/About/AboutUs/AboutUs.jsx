@@ -1,11 +1,10 @@
 import React from 'react'
+import { FaHandHoldingMedical } from 'react-icons/fa'
+import { FaHandHoldingHand, FaUserDoctor } from 'react-icons/fa6'
+import { GiMedicines } from 'react-icons/gi'
 import doctorPic1 from '../../../assets/images/doctorPic1.jpg'
 import doctorPic2 from '../../../assets/images/doctorPic2.jpg'
 import hospitalPic1 from '../../../assets/images/hospital1.png'
-import { FaHandHoldingHand } from 'react-icons/fa6'
-import { FaUserDoctor } from 'react-icons/fa6'
-import { FaHandHoldingMedical } from 'react-icons/fa'
-import { GiMedicines } from 'react-icons/gi'
 
 const AboutUs = () => {
   return (
